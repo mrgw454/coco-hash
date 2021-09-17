@@ -25,3 +25,5 @@ If using the CoCo-Pi distribution, you can allow MAME to see the CoCo disk based
 by going to the Utilities Menu, then Administration Menu.
 
 When in MAME (CoCo drivers only), you can bring up the UI (normally the TAB key), select "File Manager", "FloppyDisk1 (or 2)", "software list", "Tandy Radio Shack Color Computer Disk Images."
+
+Special thank you to Guillaume Major (owner of the Color Computer Archive) for hosting all the disk files and for assisting with this project.
