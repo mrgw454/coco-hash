@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# create archive folder if it does not exist
+if [ ! -d archive ]; then
+	mkdir archive
+fi
+
 # unzip all files prior to processing
 cd archive
 
