@@ -14,9 +14,9 @@ Once downloaded/cloned, change into the 'coco-hash' directory and perform the fo
 
 1. Start by running the following command to download Color Computer disk images (in ZIP format) from the Color Computer Archive: 
   
-  **./get-disk-images.sh**
+  **./get-disk-images-full.sh**
   
-  It's currently set to only download files from the 'Demos' folder on the Color Computer Archive, but you can edit the script to change the path that wget uses.
+  It's currently set to only download files from the 'Demos' folder on the Color Computer Archive, but you can edit the script to change the path that wget uses.  If you pass a search term, it will only download software that it finds a match for.
 
 
 2. Once the wget download command is complete, run this command:
