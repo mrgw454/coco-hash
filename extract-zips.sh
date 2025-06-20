@@ -1,18 +1,29 @@
 #!/bin/bash
 
-# create archive folder if it does not exist
-if [ ! -d archive ]; then
-	mkdir archive
+# purge and create archive folder
+if [ -d archive ]; then
+	rm -rf archive
 fi
 
-# unzip all files prior to processing
-cd archive
+mkdir archive
 
-#find . -name "*.zip" | while read filename; do unzip -o -d "`dirname "$filename"`" "$filename"; done;
+# extract all files prior to processing
+cd archive
 find ../colorcomputerarchive.com -name "*.zip" | while read filename; do unzip -o "$filename"; done;
 
-# remove all zip files (uncomment next line remove all zip files)
-#find ../colorcomputerarchive.com -type f -name '*.zip' -delete
+# rename all files to lowercase
+# requires Debian package "rename" to be installed
+echo
+echo Renaming all files to lowercase.  This may take some time...
+echo
+find . -type f -iname "*.dsk" -execdir rename 's/(.*)/\L$1/' {} \;
+echo
+
+# remove all zip files
+find ../colorcomputerarchive.com -type f -name '*.zip' -delete
+
+# remove colorcomputerarchive.com folder
+rm -rf ../colorcomputerarchive.com
 
 echo
 echo Done!
