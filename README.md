@@ -1,6 +1,6 @@
 # coco-hash
 
-Generates a MAME-compatible software list XML (`coco_flop.xml`) from CoCo disk
+Generates a MAME-compatible software list XML (`coco_flop_archive_archive.xml`) from CoCo disk
 game images downloaded from the [Color Computer Archive](https://colorcomputerarchive.com).
 
 Inspects each disk image using **decb** (ToolShed) to determine the correct BASIC
@@ -27,11 +27,11 @@ python generate_coco_hash.py [options]
 
 | Option | Description |
 |---|---|
-| *(no options)* | Download from Archive, process, write `hash/coco_flop.xml` |
+| *(no options)* | Download from Archive, process, write `hash/coco_flop_archive_archive.xml` |
 | `--no-download` | Skip downloading; process existing `archive/` folder |
 | `--deploy` | Copy output XML to MAME hash directory after generating |
 | `--verbose` | Show per-disk detail during processing |
-| `--output FILE` | Override output path (default: `hash/coco_flop.xml`) |
+| `--output FILE` | Override output path (default: `hash/coco_flop_archive_archive.xml`) |
 
 ### Typical first run
 
@@ -40,7 +40,7 @@ python generate_coco_hash.py
 ```
 
 Downloads all game disk images from the Archive's `Disks/Games/` section,
-extracts them into `archive/`, inspects each one, and writes `hash/coco_flop.xml`.
+extracts them into `archive/`, inspects each one, and writes `hash/coco_flop_archive_archive.xml`.
 
 ### Subsequent runs (already have the files)
 
@@ -55,8 +55,8 @@ python generate_coco_hash.py --deploy
 ```
 
 Copies the output to:
-- **Linux:** `~/.mame/hash/coco_flop.xml`
-- **Windows:** `%APPDATA%\MAME\hash\coco_flop.xml`
+- **Linux:** `~/.mame/hash/coco_flop_archive_archive.xml`
+- **Windows:** `%APPDATA%\MAME\hash\coco_flop_archive_archive.xml`
 
 ---
 
@@ -64,7 +64,7 @@ Copies the output to:
 
 ### Option A — deploy (copy)
 
-Use `--deploy` as shown above, or copy `hash/coco_flop.xml` manually to your
+Use `--deploy` as shown above, or copy `hash/coco_flop_archive_archive.xml` manually to your
 MAME hash directory.
 
 ### Option B — symlinks / junctions
@@ -88,7 +88,7 @@ with no copy step needed.
 Once the hash file is in place, you can launch a game from the software list:
 
 ```
-mame coco3 -flop1 coco_flop:gamename
+mame coco3 -flop1 coco_flop_archive:gamename
 ```
 
 Or browse it interactively: **TAB → File Manager → FloppyDisk1 → software list →
@@ -186,7 +186,7 @@ generate_coco_hash.py   Main script
 create-mame-links.sh    One-time symlink setup (Linux only)
 downloads/              Downloaded ZIP files (created on first run)
 archive/                Extracted DSK images, one subfolder per game
-hash/                   Generated output (coco_flop.xml)
+hash/                   Generated output (coco_flop_archive_archive.xml)
 software/               DSK copies for MAME rompath (future use)
 ```
 

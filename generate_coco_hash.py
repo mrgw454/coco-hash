@@ -2,7 +2,7 @@
 """
 generate_coco_hash.py
 
-Generate a MAME coco_flop.xml software list from Color Computer Archive disk games.
+Generate a MAME coco_flop_archive.xml software list from Color Computer Archive disk games.
 Downloads DSK images from the Games section of colorcomputerarchive.com, inspects
 each disk using 'decb' (ToolShed) to determine the correct BASIC load command,
 hashes the files, and writes a MAME-compatible software list XML.
@@ -18,7 +18,7 @@ Options:
     --no-download   Skip downloading; process existing archive/ folder
     --deploy        Copy output XML to MAME hash directory
     --verbose       Show per-disk detail during processing
-    --output FILE   Output path (default: hash/coco_flop.xml)
+    --output FILE   Output path (default: hash/coco_flop_archive.xml)
 """
 
 import argparse
@@ -51,8 +51,8 @@ SCRIPT_DIR    = Path(__file__).parent
 ARCHIVE_DIR   = SCRIPT_DIR / 'archive'
 DOWNLOAD_DIR  = SCRIPT_DIR / 'downloads'
 HASH_DIR      = SCRIPT_DIR / 'hash'
-OUTPUT_XML    = HASH_DIR / 'coco_flop.xml'
-SOFTWARE_DIR  = SCRIPT_DIR / 'software' / 'coco_flop'
+OUTPUT_XML    = HASH_DIR / 'coco_flop_archive.xml'
+SOFTWARE_DIR  = SCRIPT_DIR / 'software' / 'coco_flop_archive'
 
 if IS_WINDOWS:
     MAME_HASH_DIR = Path(os.environ.get('USERPROFILE', Path.home())) / 'mame' / 'hash'
@@ -374,7 +374,7 @@ def make_xml_name(dsk_stem):
 _XML_HEADER = (
     '<?xml version="1.0"?>\n'
     '<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">\n\n'
-    '<softwarelist name="coco_flop" '
+    '<softwarelist name="coco_flop_archive" '
     'description="Tandy Radio Shack Color Computer disk images">\n'
 )
 _XML_FOOTER = '\n</softwarelist>\n'
@@ -436,7 +436,7 @@ def collect_dsk_files():
 
 def main():
     ap = argparse.ArgumentParser(
-        description='Generate MAME coco_flop.xml from Color Computer Archive disk games.',
+        description='Generate MAME coco_flop_archive.xml from Color Computer Archive disk games.',
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     ap.add_argument('--no-download', action='store_true',
