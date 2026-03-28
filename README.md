@@ -147,9 +147,6 @@ Or launch directly:
 mame coco3 -flop1 coco_flop:gamename
 ```
 
-Each disk entry shows the correct BASIC load command (e.g. `RUN"GAME"` or
-`LOADM"GAME":EXEC`) — select the title, then type the shown command at the CoCo BASIC prompt.
-
 **Cartridges** — launch directly:
 ```
 mame coco3 -cart coco_cart:gamename
@@ -157,6 +154,51 @@ mame coco3 -cart coco_cart:gamename
 
 Or use the file manager: TAB → File Manager → Cartridge → software list →
 **Tandy Radio Shack Color Computer cartridges**
+
+---
+
+### Running disk games — load commands explained
+
+Unlike cartridges, CoCo disk games do not auto-start. After MAME boots to the
+CoCo BASIC `OK` prompt with a disk mounted, you must type a command to load and
+run the program.
+
+The correct command depends on how the software was stored on the disk:
+
+#### BASIC programs (tokenized or ASCII)
+
+```
+RUN"FILENAME"
+```
+
+Used for programs written in Color BASIC or Extended Color BASIC. The file is
+loaded into memory and executed by the BASIC interpreter.
+
+Example: `RUN"POKER"`
+
+#### Machine language / binary programs
+
+```
+LOADM"FILENAME":EXEC
+```
+
+Used for programs written in assembly / machine code. `LOADM` loads the binary
+into memory at its stored address; `EXEC` jumps to the execution address stored
+in the file header.
+
+Example: `LOADM"DEFENDER":EXEC`
+
+> The `:EXEC` suffix can also be written on a separate line — `EXEC` alone will
+> re-execute whatever was last loaded with `LOADM`.
+
+#### How to know which command to use
+
+Each entry in `coco_flop.xml` includes a `usage` field with the exact command.
+This script determines the correct command automatically by inspecting the disk
+contents with `decb` — you don't need to guess.
+
+The command is shown in the MAME software list info panel when you highlight a
+title. It is always one of the two forms above.
 
 ---
 
