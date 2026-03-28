@@ -1,0 +1,290 @@
+<?xml version="1.0"?>
+<!DOCTYPE softwarelist SYSTEM "softwarelist.dtd">
+
+<softwarelist name="coco_flop" description="Tandy Radio Shack Color Computer disk images">
+
+	<software name="poker5">
+		<description>5 Player Poker</description>
+		<year>19xx</year>
+		<publisher>T&amp;D Software</publisher>
+		<info name="usage" value="RUN&quot;POKER5&quot;" />
+		<sharedfeat name="compatibility" value="COCO,COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="poker5.dsk" size="161280" crc="21179b4b" sha1="9f37e05606037db6b9bbb6080d815d848c94b3a5" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="videopkr">
+		<description>Coco 3 Video Poker</description>
+		<year>19xx</year>
+		<publisher>CoCo Brothers</publisher>
+		<info name="usage" value="RUN&quot;BOOT&quot;" />
+		<sharedfeat name="compatibility" value="COCO,COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="videopkr.dsk" size="161280" crc="f32f4ed4" sha1="385bc7fd130eab0ecb35392fa5388b9d57cbcd73" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="poker">
+		<description>Color Poker</description>
+		<year>19xx</year>
+		<publisher>The Rainbow</publisher>
+		<info name="usage" value="RUN&quot;POKER&quot;" />
+		<sharedfeat name="compatibility" value="COCO,COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="poker.dsk" size="161280" crc="fdde159f" sha1="0372bafeaa0ab93f8445f9a022868fe4e71c0c6f" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="cc3poker">
+		<description>Draw Poker</description>
+		<year>19xx</year>
+		<publisher>Gary James</publisher>
+		<info name="usage" value="RUN&quot;POKER&quot;" />
+		<sharedfeat name="compatibility" value="COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="cc3poker.dsk" size="161280" crc="cc3e485c" sha1="49916be019e94821199fb7f43cd038c5c4805686" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="drawpo">
+		<description>Draw Poker</description>
+		<year>19xx</year>
+		<publisher>Mike Burton</publisher>
+		<info name="usage" value="RUN&quot;DRAWPO&quot;" />
+		<sharedfeat name="compatibility" value="COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="drawpo.dsk" size="161280" crc="11ec97d5" sha1="250daeac068c41ff04454dc20d4dda6a586dd97a" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="drawpokr">
+		<description>Draw Poker</description>
+		<year>19xx</year>
+		<publisher>T&amp;D Software</publisher>
+		<info name="usage" value="RUN&quot;DRAWPOKR&quot;" />
+		<sharedfeat name="compatibility" value="COCO,COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="drawpokr.dsk" size="161280" crc="333b5349" sha1="90a00285187fd6e105dc81681d66fdec8867e793" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="poker3">
+		<description>Draw Poker</description>
+		<year>19xx</year>
+		<publisher>T&amp;D Software</publisher>
+		<info name="usage" value="RUN&quot;POKER3&quot;" />
+		<sharedfeat name="compatibility" value="COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="poker3.dsk" size="161280" crc="baf889da" sha1="c8b9465f0c2f6ef20a03b10cac9a91ace0192a5e" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="poker_1">
+		<description>Draw Poker</description>
+		<year>19xx</year>
+		<publisher>Tom Mix Software</publisher>
+		<info name="usage" value="LOADM&quot;POKER&quot;:EXEC" />
+		<sharedfeat name="compatibility" value="COCO,COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="poker.dsk" size="161280" crc="4beb7e1b" sha1="ca73173eddf644c26d587dd11f0ab02ade7626ae" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="jackpot">
+		<description>Jackpot Poker</description>
+		<year>19xx</year>
+		<publisher>Jack &amp; Pegi Tindle</publisher>
+		<info name="usage" value="LOADM&quot;POKER&quot;:EXEC" />
+		<sharedfeat name="compatibility" value="COCO,COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="jackpot.dsk" size="161280" crc="cff92d58" sha1="200439d2c319b11a42b4f28881093f3389289cd4" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="jokerpkr">
+		<description>Joker Poker</description>
+		<year>19xx</year>
+		<publisher>The Rainbow</publisher>
+		<info name="usage" value="RUN&quot;JOKERPKR&quot;" />
+		<sharedfeat name="compatibility" value="COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="jokerpkr.dsk" size="161280" crc="c04d2a4d" sha1="87b9afbd05d89a954c0b0a0cf78a8190df48a932" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="psquare2">
+		<description>Poker Squares (Original Edition)</description>
+		<year>19xx</year>
+		<publisher>Paul Shoemaker</publisher>
+		<info name="usage" value="RUN&quot;RUNME&quot;" />
+		<sharedfeat name="compatibility" value="COCO,COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="psquare2.dsk" size="161280" crc="ae6647ec" sha1="47fe89fac1574d5fae45fed2fe8fa7906fd82de2" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="psquares">
+		<description>Poker Squares (Original Edition)</description>
+		<year>19xx</year>
+		<publisher>Paul Shoemaker</publisher>
+		<info name="usage" value="RUN&quot;RUNME&quot;" />
+		<sharedfeat name="compatibility" value="COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="psquares.dsk" size="161280" crc="98ed1fd3" sha1="f66889f04466c1453658beb66e063e4df0cc6d9f" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="psquare4">
+		<description>Poker Squares</description>
+		<year>19xx</year>
+		<publisher>Paul Shoemaker</publisher>
+		<info name="usage" value="RUN&quot;RUNME&quot;" />
+		<sharedfeat name="compatibility" value="COCO,COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="psquare4.dsk" size="161280" crc="d44f8ab7" sha1="88f3b66a86d96cc4b55347970391c8161a418bcd" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="psquare5">
+		<description>Poker Squares</description>
+		<year>19xx</year>
+		<publisher>Paul Shoemaker</publisher>
+		<info name="usage" value="RUN&quot;RUNME&quot;" />
+		<sharedfeat name="compatibility" value="COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="psquare5.dsk" size="161280" crc="8c96a46e" sha1="ce7ab46840923477a8a5b0f02cc947a040a9c752" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="solopkr">
+		<description>Solo Poker</description>
+		<year>19xx</year>
+		<publisher>T&amp;D Software</publisher>
+		<info name="usage" value="RUN&quot;SOLOPKR&quot;" />
+		<sharedfeat name="compatibility" value="COCO,COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="solopkr.dsk" size="161280" crc="61c591bb" sha1="fb81ea8b974d2c9c72dff0aecf883a26bae98d9b" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="solopkr_1">
+		<description>Solo Poker</description>
+		<year>19xx</year>
+		<publisher>Tandy</publisher>
+		<info name="usage" value="RUN&quot;SOLOPKR&quot;" />
+		<sharedfeat name="compatibility" value="COCO,COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="solopkr.dsk" size="161280" crc="306ed0a1" sha1="ed783705237ff3baaa886633b9f4a5fc814d3a57" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="strip1">
+		<description>Strip Poker</description>
+		<year>19xx</year>
+		<publisher>Artworx</publisher>
+		<info name="usage" value="RUN&quot;POKER1&quot;" />
+		<sharedfeat name="compatibility" value="COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="strip1.dsk" size="161280" crc="88973887" sha1="d8872712425476a15714ac8f3d6a3dfcb7f8bbce" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="strip2">
+		<description>Strip Poker</description>
+		<year>19xx</year>
+		<publisher>Artworx</publisher>
+		<sharedfeat name="compatibility" value="COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="strip2.dsk" size="161280" crc="6e618b58" sha1="9a79665416a13ff191f86068511958c051018c0f" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="strip3">
+		<description>Strip Poker</description>
+		<year>19xx</year>
+		<publisher>Artworx</publisher>
+		<sharedfeat name="compatibility" value="COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="strip3.dsk" size="161280" crc="06b6c57f" sha1="237781c8169b6711a8d79d8e2e96bad01dbe6945" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="poker2">
+		<description>Super Poker II</description>
+		<year>19xx</year>
+		<publisher>Marc Quirion</publisher>
+		<info name="usage" value="RUN&quot;POKER2&quot;" />
+		<sharedfeat name="compatibility" value="COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="poker2.dsk" size="161280" crc="71436e7f" sha1="aab170dcbd418215032495b32b2563662c751396" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="vpoker3">
+		<description>Video Poker Coco 3 Edition</description>
+		<year>19xx</year>
+		<publisher>Paul Shoemaker</publisher>
+		<info name="usage" value="LOADM&quot;VPOKER3&quot;:EXEC" />
+		<sharedfeat name="compatibility" value="COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="vpoker3.dsk" size="161280" crc="e5e5a981" sha1="e5a6b41dd08759c74e1b5189127ff9c6c3852e2e" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+	<software name="vpoker">
+		<description>Video Poker Standard Edition</description>
+		<year>19xx</year>
+		<publisher>Paul Shoemaker</publisher>
+		<info name="usage" value="LOADM&quot;VPOKER&quot;:EXEC" />
+		<sharedfeat name="compatibility" value="COCO,COCO3" />
+		<part name="flop0" interface="floppy_5_25">
+			<dataarea name="flop" size="161280">
+				<rom name="vpoker.dsk" size="161280" crc="8e423b7a" sha1="55800515fb9ee0b5fb59c20eded9c0c07481d47f" offset="0" />
+			</dataarea>
+		</part>
+	</software>
+
+</softwarelist>

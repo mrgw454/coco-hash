@@ -1,0 +1,12 @@
+# Downloaded files and extracted game images
+downloads/
+archive/
+
+# Generated software zips (MAME rompath media)
+software/
+
+# Old intermediate file
+coco-hash.csv
+
+# Editor
+.vscode/
