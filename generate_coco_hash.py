@@ -483,6 +483,7 @@ def main():
     entries_xml   = []
     seen_names    = {}
     ambiguous_log = []
+    software_map  = []  # (xml_name, dsk_path) for packaging step
     stats = {'sure': 0, 'guess': 0, 'ambiguous': 0, 'none': 0, 'error': 0}
 
     for dsk_path, folder_name in dsk_files:
@@ -527,6 +528,7 @@ def main():
             crc32=crc32,
             sha1=sha1,
         ))
+        software_map.append((xml_name, dsk_path))
 
         if args.verbose or confidence in ('ambiguous', 'none', 'error'):
             tag = f'[{confidence.upper()}] ' if confidence != 'sure' else ''
@@ -548,17 +550,25 @@ def main():
         fh.write(_XML_FOOTER)
 
     # --- Package DSKs for MAME rompath ---
-    # MAME looks for software/coco_flop/<name>.zip containing <name>.dsk
+    # MAME looks for software/coco_flop/<xml_name>.zip containing <dsk_name>.dsk
+    # The zip name MUST match the software name in the XML.
     print('\nPackaging DSK files for MAME software path ...')
     SOFTWARE_DIR.mkdir(parents=True, exist_ok=True)
+
+    # Remove any stale zips no longer in the software map
+    expected_zips = {f'{xml_name}.zip' for xml_name, _ in software_map}
+    for old_zip in SOFTWARE_DIR.glob('*.zip'):
+        if old_zip.name not in expected_zips:
+            old_zip.unlink()
+
     packaged = 0
-    for dsk_path, folder_name in dsk_files:
-        zip_path = SOFTWARE_DIR / (dsk_path.stem + '.zip')
+    for xml_name, dsk_path in software_map:
+        zip_path = SOFTWARE_DIR / f'{xml_name}.zip'
         if not zip_path.exists():
             with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zf:
                 zf.write(dsk_path, dsk_path.name)
             packaged += 1
-    print(f'  {packaged} new zip(s) created, {len(dsk_files) - packaged} already present.')
+    print(f'  {packaged} new zip(s) created, {len(software_map) - packaged} already present.')
 
     # --- Summary ---
     print(f'\nWrote {len(entries_xml)} entries → {output_path}')
