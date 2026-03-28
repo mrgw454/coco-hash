@@ -1,41 +1,196 @@
 # coco-hash
-Automated process for creating Color Computer Disk software hash files (XML) for MAME
 
-**NOTE for CoCo-Pi users:**
+Generates a MAME-compatible software list XML (`coco_flop.xml`) from CoCo disk
+game images downloaded from the [Color Computer Archive](https://colorcomputerarchive.com).
 
-If you update your CoCo-Pi using the "**Update CoCo-Pi from git repo**" feature, it will automatically download/clone this github repo into your /home/pi/source folder.
+Inspects each disk image using **decb** (ToolShed) to determine the correct BASIC
+load command — `RUN`, `LOADM`, etc. — rather than blindly assuming one type.
 
-For those who wish to manually install it, select a top level folder of your choice and use the following command:
+---
 
-**git clone https://github.com/mrgw454/coco-hash.git**
+## Requirements
 
+- **Python 3.8+** (pyenv on Linux/Windows both work)
+- **decb** from [ToolShed](https://sourceforge.net/projects/toolshed/) in your PATH
+  - Linux: build from source or install package
+  - Windows: pre-built binary available from the ToolShed project page
 
-Once downloaded/cloned, change into the 'coco-hash' directory and perform the follwing steps:
+No third-party Python packages required — stdlib only.
 
-1. Start by running the following command to download Color Computer disk images (in ZIP format) from the Color Computer Archive: 
-  
-  **./get-disk-images-full.sh**
-  
-  It's currently set to only download files from the 'Demos' folder on the Color Computer Archive, but you can edit the script to change the path that wget uses.  If you pass a search term, it will only download software that it finds a match for.
+---
 
+## Usage
 
-2. Once the wget download command is complete, run this command:
+```
+python generate_coco_hash.py [options]
+```
 
-  **./extract-zips.sh**
-  
-  This will extract all the zip files in the ./coco-hash/colorcomputerarchive.com folder into the ./coco-hash/archive folder.
+| Option | Description |
+|---|---|
+| *(no options)* | Download from Archive, process, write `hash/coco_flop.xml` |
+| `--no-download` | Skip downloading; process existing `archive/` folder |
+| `--deploy` | Copy output XML to MAME hash directory after generating |
+| `--verbose` | Show per-disk detail during processing |
+| `--output FILE` | Override output path (default: `hash/coco_flop.xml`) |
 
+### Typical first run
 
-3. Finally, run this script to process the files you've downloaded and create the necessary MAME hash file (and software repo) for the Color Computer disk images:
+```bash
+python generate_coco_hash.py
+```
 
-  **./coco-hash.sh**
-  
-  
-If using the CoCo-Pi distribution, you can allow MAME to see the CoCo disk based software by selecting the "Update MAME software HASH file for CoCo"
-by going to the Utilities Menu, then Administration Menu.
+Downloads all game disk images from the Archive's `Disks/Games/` section,
+extracts them into `archive/`, inspects each one, and writes `hash/coco_flop.xml`.
 
-When in MAME (CoCo drivers only), you can bring up the UI (normally the TAB key), select "File Manager", "FloppyDisk1 (or 2)", "software list", "Tandy Radio Shack Color Computer Disk Images."
+### Subsequent runs (already have the files)
 
+```bash
+python generate_coco_hash.py --no-download
+```
 
+### Generate and deploy directly to MAME
 
-Special thank you to **Guillaume Major** (owner of the Color Computer Archive) for hosting all the disk files and for assisting with this project.
+```bash
+python generate_coco_hash.py --deploy
+```
+
+Copies the output to:
+- **Linux:** `~/.mame/hash/coco_flop.xml`
+- **Windows:** `%APPDATA%\MAME\hash\coco_flop.xml`
+
+---
+
+## MAME integration
+
+### Option A — deploy (copy)
+
+Use `--deploy` as shown above, or copy `hash/coco_flop.xml` manually to your
+MAME hash directory.
+
+### Option B — symlinks (Linux only)
+
+Run `create-mame-links.sh` once to create symlinks from `~/.mame/hash` and
+`~/.mame/software` directly into this project folder. After that, regenerating
+the XML is immediately live in MAME with no copy step needed.
+
+```bash
+./create-mame-links.sh
+```
+
+### Using in MAME
+
+Once the hash file is in place, you can launch a game from the software list:
+
+```
+mame coco3 -flop1 coco_flop:gamename
+```
+
+Or browse it interactively: **TAB → File Manager → FloppyDisk1 → software list →
+Tandy Radio Shack Color Computer Disk Images**.
+
+---
+
+## How it works
+
+1. **Download** — scrapes the Archive directory listing and downloads ZIP files
+   to `downloads/`. Previously downloaded files are skipped.
+
+2. **Extract** — unzips each archive into `archive/`, preserving the per-game
+   folder structure. DSK filenames are lowercased.
+
+3. **Inspect** — runs `decb dir` on each DSK file to get the disk's file listing.
+   Each file has a name, extension (`BAS` / `BIN` / data), and type code.
+
+4. **Load command detection** — determines the correct BASIC command to launch
+   the program (see below).
+
+5. **Hash** — computes SHA1 and CRC32 for each DSK file.
+
+6. **XML** — generates a MAME software list XML entry for each disk, including
+   description, publisher, platform compatibility, hashes, and load command.
+
+---
+
+## Load command detection
+
+The correct command depends on the file type on the disk:
+
+| Disk file type | BASIC command |
+|---|---|
+| Tokenized BASIC (type 0) | `RUN"FILENAME"` |
+| ASCII BASIC (type 1) | `RUN"FILENAME"` |
+| Binary / machine code (type 2) | `LOADM"FILENAME":EXEC` |
+
+### Entry point selection
+
+When a disk has multiple files, the script uses these rules in order:
+
+1. Known entry-point names: `RUNME`, `BOOT`, `AUTOEXEC`, `AUTO`, `AUTORUN`,
+   `START`, `MAIN`, `MENU`, `LOADER`, `LOAD`
+2. File whose name matches the DSK filename
+3. Single BAS file (even if BIN files also present — BAS is the loader)
+4. Single BIN file
+5. First BAS or BIN found — flagged **ambiguous**
+
+### Confidence levels
+
+The summary output reports confidence for each entry:
+
+| Level | Meaning |
+|---|---|
+| `Sure` | Single file, known entry point, or disk-name match |
+| `Guess` | One BAS loader + one or more BIN data files |
+| `Ambiguous` | Multiple candidates; first used — review recommended |
+| `None` | No executable files (picture/data disks) |
+| `Error` | `decb` failed — likely OS-9, copy-protected, or corrupt |
+
+Ambiguous entries are listed at the end of the run with the candidate files shown.
+
+---
+
+## Folder naming conventions
+
+The Color Computer Archive names each game folder as:
+
+```
+Game Title (Publisher)
+Game Title (Publisher) (Coco 3)
+```
+
+The script parses this to populate:
+- **description** — game title (without publisher)
+- **publisher** — text in the last set of parentheses
+- **compatibility** — `COCO3` if `(Coco 3)` is present; otherwise `COCO,COCO3`
+
+---
+
+## Excluded content
+
+The following folder patterns are skipped automatically:
+
+`translations`, `protected`, `os-9`, `os9`, `disto`, `sdc`, `burke`, `bible`,
+`cocovga`, `french`, `portuguese`, `dragon32`
+
+---
+
+## Project layout
+
+```
+generate_coco_hash.py   Main script
+create-mame-links.sh    One-time symlink setup (Linux only)
+downloads/              Downloaded ZIP files (created on first run)
+archive/                Extracted DSK images, one subfolder per game
+hash/                   Generated output (coco_flop.xml)
+software/               DSK copies for MAME rompath (future use)
+```
+
+---
+
+## Future
+
+- **Cart support** — `coco_cart.xml` from `Carts/` section of the Archive
+  (simpler: no `decb` needed, no load command)
+
+---
+
+Special thanks to **Guillaume Major** for hosting the Color Computer Archive.
