@@ -565,13 +565,10 @@ def main():
 
     # --- Deploy ---
     if args.deploy:
-        if MAME_HASH_DIR.exists():
-            dest = MAME_HASH_DIR / output_path.name
-            shutil.copy2(output_path, dest)
-            print(f'\nDeployed → {dest}')
-        else:
-            print(f'\nWarning: MAME hash dir not found at {MAME_HASH_DIR}')
-            print(f'  Copy {output_path} there manually.')
+        MAME_HASH_DIR.mkdir(parents=True, exist_ok=True)
+        dest = MAME_HASH_DIR / output_path.name
+        shutil.copy2(output_path, dest)
+        print(f'\nDeployed → {dest}')
 
 
 if __name__ == '__main__':
