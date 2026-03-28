@@ -204,23 +204,39 @@ def run_decb_dir(dsk_path):
     """
     Run 'decb dir' on dsk_path.
     Returns (list[FileEntry], error_str).  On success error_str is None.
+
+    decb error 215 ("badly formed pathname") occurs when the path contains
+    special characters such as apostrophes, commas, brackets, or exclamation
+    marks.  To work around this, we copy the DSK to a temp file with a clean
+    name before calling decb.
     """
+    import tempfile
     try:
+        with tempfile.NamedTemporaryFile(suffix='.dsk', delete=False) as tmp:
+            tmp_path = Path(tmp.name)
+        shutil.copy2(dsk_path, tmp_path)
         result = subprocess.run(
-            ['decb', 'dir', str(dsk_path)],
-            capture_output=True, text=True, timeout=10,
+            ['decb', 'dir', str(tmp_path)],
+            capture_output=True, timeout=10,
         )
+        stdout = result.stdout.decode('latin-1')
+        stderr = result.stderr.decode('latin-1')
     except FileNotFoundError:
         return None, "'decb' not found in PATH"
     except subprocess.TimeoutExpired:
         return None, 'decb timed out'
+    finally:
+        try:
+            tmp_path.unlink(missing_ok=True)
+        except Exception:
+            pass
 
     if result.returncode != 0:
-        msg = (result.stderr or result.stdout).strip()
+        msg = (stderr or stdout).strip()
         return None, msg or f'decb returned {result.returncode}'
 
     entries = []
-    for line in result.stdout.splitlines():
+    for line in stdout.splitlines():
         line = line.strip()
         if not line or line.startswith('Directory of'):
             continue
