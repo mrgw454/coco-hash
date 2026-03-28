@@ -54,8 +54,7 @@ HASH_DIR     = SCRIPT_DIR / 'hash'
 OUTPUT_XML   = HASH_DIR / 'coco_flop.xml'
 
 if IS_WINDOWS:
-    _appdata = Path(os.environ.get('APPDATA', Path.home() / 'AppData' / 'Roaming'))
-    MAME_HASH_DIR = _appdata / 'MAME' / 'hash'
+    MAME_HASH_DIR = Path(os.environ.get('USERPROFILE', Path.home())) / 'mame' / 'hash'
 else:
     MAME_HASH_DIR = Path.home() / '.mame' / 'hash'
 

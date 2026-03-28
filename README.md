@@ -67,14 +67,20 @@ Copies the output to:
 Use `--deploy` as shown above, or copy `hash/coco_flop.xml` manually to your
 MAME hash directory.
 
-### Option B — symlinks (Linux only)
+### Option B — symlinks / junctions
 
-Run `create-mame-links.sh` once to create symlinks from `~/.mame/hash` and
-`~/.mame/software` directly into this project folder. After that, regenerating
-the XML is immediately live in MAME with no copy step needed.
+Run the appropriate script once to link `hash/` and `software/` directly into
+your MAME folder. After that, regenerating the XML is immediately live in MAME
+with no copy step needed.
 
+**Linux** — creates symlinks into `~/.mame/`:
 ```bash
 ./create-mame-links.sh
+```
+
+**Windows** — creates directory junctions into `%USERPROFILE%\mame\`:
+```powershell
+.\create-mame-links.ps1
 ```
 
 ### Using in MAME
