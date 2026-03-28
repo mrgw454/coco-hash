@@ -47,11 +47,12 @@ IS_WINDOWS = sys.platform == 'win32'
 # Paths
 # ---------------------------------------------------------------------------
 
-SCRIPT_DIR   = Path(__file__).parent
-ARCHIVE_DIR  = SCRIPT_DIR / 'archive'
-DOWNLOAD_DIR = SCRIPT_DIR / 'downloads'
-HASH_DIR     = SCRIPT_DIR / 'hash'
-OUTPUT_XML   = HASH_DIR / 'coco_flop.xml'
+SCRIPT_DIR    = Path(__file__).parent
+ARCHIVE_DIR   = SCRIPT_DIR / 'archive'
+DOWNLOAD_DIR  = SCRIPT_DIR / 'downloads'
+HASH_DIR      = SCRIPT_DIR / 'hash'
+OUTPUT_XML    = HASH_DIR / 'coco_flop.xml'
+SOFTWARE_DIR  = SCRIPT_DIR / 'software' / 'coco_flop'
 
 if IS_WINDOWS:
     MAME_HASH_DIR = Path(os.environ.get('USERPROFILE', Path.home())) / 'mame' / 'hash'
@@ -545,6 +546,19 @@ def main():
             fh.write('\n')
             fh.write(entry)
         fh.write(_XML_FOOTER)
+
+    # --- Package DSKs for MAME rompath ---
+    # MAME looks for software/coco_flop/<name>.zip containing <name>.dsk
+    print('\nPackaging DSK files for MAME software path ...')
+    SOFTWARE_DIR.mkdir(parents=True, exist_ok=True)
+    packaged = 0
+    for dsk_path, folder_name in dsk_files:
+        zip_path = SOFTWARE_DIR / (dsk_path.stem + '.zip')
+        if not zip_path.exists():
+            with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zf:
+                zf.write(dsk_path, dsk_path.name)
+            packaged += 1
+    print(f'  {packaged} new zip(s) created, {len(dsk_files) - packaged} already present.')
 
     # --- Summary ---
     print(f'\nWrote {len(entries_xml)} entries → {output_path}')
