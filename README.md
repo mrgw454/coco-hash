@@ -1,6 +1,6 @@
 # coco-hash
 
-Generates a MAME-compatible software list XML (`coco_flop_archive_archive.xml`) from CoCo disk
+Generates a MAME-compatible software list XML (`coco_flop.xml`) from CoCo disk
 game images downloaded from the [Color Computer Archive](https://colorcomputerarchive.com).
 
 Inspects each disk image using **decb** (ToolShed) to determine the correct BASIC
@@ -27,11 +27,11 @@ python generate_coco_hash.py [options]
 
 | Option | Description |
 |---|---|
-| *(no options)* | Download from Archive, process, write `hash/coco_flop_archive_archive.xml` |
+| *(no options)* | Download from Archive, process, write `hash/coco_flop.xml` |
 | `--no-download` | Skip downloading; process existing `archive/` folder |
 | `--deploy` | Copy output XML to MAME hash directory after generating |
 | `--verbose` | Show per-disk detail during processing |
-| `--output FILE` | Override output path (default: `hash/coco_flop_archive_archive.xml`) |
+| `--output FILE` | Override output path (default: `hash/coco_flop.xml`) |
 
 ### Typical first run
 
@@ -40,7 +40,7 @@ python generate_coco_hash.py
 ```
 
 Downloads all game disk images from the Archive's `Disks/Games/` section,
-extracts them into `archive/`, inspects each one, and writes `hash/coco_flop_archive_archive.xml`.
+extracts them into `archive/`, inspects each one, and writes `hash/coco_flop.xml`.
 
 ### Subsequent runs (already have the files)
 
@@ -55,23 +55,18 @@ python generate_coco_hash.py --deploy
 ```
 
 Copies the output to:
-- **Linux:** `~/.mame/hash/coco_flop_archive_archive.xml`
-- **Windows:** `%APPDATA%\MAME\hash\coco_flop_archive_archive.xml`
+- **Linux:** `~/.mame/hash/coco_flop.xml`
+- **Windows:** `%USERPROFILE%\mame\hash\coco_flop.xml`
 
 ---
 
-## MAME integration
+## MAME setup
 
-### Option A — deploy (copy)
+### Step 1 — Link project folders into MAME
 
-Use `--deploy` as shown above, or copy `hash/coco_flop_archive_archive.xml` manually to your
-MAME hash directory.
-
-### Option B — symlinks / junctions
-
-Run the appropriate script once to link `hash/` and `software/` directly into
-your MAME folder. After that, regenerating the XML is immediately live in MAME
-with no copy step needed.
+Run the appropriate script **once** to create symlinks (Linux) or junctions (Windows)
+from your MAME directory into this project. After that, regenerating the XML is
+immediately live in MAME with no copy step needed.
 
 **Linux** — creates symlinks into `~/.mame/`:
 ```bash
@@ -83,16 +78,58 @@ with no copy step needed.
 .\create-mame-links.ps1
 ```
 
-### Using in MAME
+This creates:
+- `~/.mame/hash` → `<project>/hash/` — so MAME finds `coco_flop.xml`
+- `~/.mame/software` → `<project>/software/` — so MAME finds the zipped DSK media
 
-Once the hash file is in place, you can launch a game from the software list:
+### Step 2 — Edit mame.ini
 
+MAME searches `hashpath` left to right and uses the **first** `coco_flop.xml` it
+finds. The MAME install ships its own `coco_flop.xml` (small official list), so
+`~/.mame/hash` must come **before** the MAME install's `hash` directory.
+
+Find your `mame.ini` (usually `~/.mame/mame.ini` on Linux,
+`%USERPROFILE%\mame\mame.ini` on Windows) and edit the `hashpath` line so
+`$HOME/.mame/hash` (Linux) or `%USERPROFILE%\mame\hash` (Windows) is first:
+
+**Linux:**
 ```
-mame coco3 -flop1 coco_flop_archive:gamename
+hashpath    $HOME/.mame/hash;hash;/opt/mame/hash
 ```
 
-Or browse it interactively: **TAB → File Manager → FloppyDisk1 → software list →
-Tandy Radio Shack Color Computer Disk Images**.
+**Windows:**
+```
+hashpath    %USERPROFILE%\mame\hash;hash
+```
+
+> **Note:** The exact existing entries in your `hashpath` will vary. The key is
+> that your user hash directory appears before the MAME install directory (`hash`).
+
+### Step 3 — Verify rompath includes the software folder
+
+The zipped DSK files live in `software/coco_flop/`. MAME must be able to find
+them via `rompath`. Check that `rompath` in `mame.ini` includes your user
+software directory — either directly or via the symlink/junction created above.
+
+A typical Linux `rompath`:
+```
+rompath    software;roms;/media/share1/roms;/media/share1/software
+```
+
+The leading `software` entry is relative to where MAME runs and resolves to
+`~/.mame/software` (the symlink) on most setups.
+
+### Using the software list in MAME
+
+Once set up, the list appears in the MAME file browser:
+
+**TAB → File Manager → FloppyDisk1 → software list →
+Tandy Radio Shack Color Computer Disk Images**
+
+Or launch directly from the command line:
+```
+mame coco3 -flop1 coco_flop:gamename
+```
 
 ---
 
@@ -114,6 +151,9 @@ Tandy Radio Shack Color Computer Disk Images**.
 
 6. **XML** — generates a MAME software list XML entry for each disk, including
    description, publisher, platform compatibility, hashes, and load command.
+
+7. **Package** — zips each DSK into `software/coco_flop/<name>.zip` for MAME's
+   rompath. Zip names match the XML software names exactly.
 
 ---
 
@@ -183,11 +223,12 @@ The following folder patterns are skipped automatically:
 
 ```
 generate_coco_hash.py   Main script
-create-mame-links.sh    One-time symlink setup (Linux only)
+create-mame-links.sh    One-time symlink setup (Linux)
+create-mame-links.ps1   One-time junction setup (Windows)
 downloads/              Downloaded ZIP files (created on first run)
 archive/                Extracted DSK images, one subfolder per game
-hash/                   Generated output (coco_flop_archive_archive.xml)
-software/               DSK copies for MAME rompath (future use)
+hash/                   Generated output (coco_flop.xml)
+software/coco_flop/     Zipped DSKs for MAME rompath
 ```
 
 ---
