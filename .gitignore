@@ -1,6 +1,8 @@
 # Downloaded files and extracted game images
 downloads/
 archive/
+cart_downloads/
+cart_archive/
 
 # Generated software zips (MAME rompath media)
 software/
