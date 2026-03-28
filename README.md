@@ -10,7 +10,7 @@ load command — `RUN`, `LOADM`, etc. — rather than blindly assuming one type.
 
 ## Requirements
 
-- **Python 3.8+** (pyenv on Linux/Windows both work)
+- **Python 3.8+** (pyenv on Linux, pyenv-win on Windows both work)
 - **decb** from [ToolShed](https://sourceforge.net/projects/toolshed/) in your PATH
   - Linux: build from source or install package
   - Windows: pre-built binary available from the ToolShed project page
@@ -91,7 +91,8 @@ Two settings in `mame.ini` need updating (`~/.mame/mame.ini` on Linux,
 > or `%USERPROFILE%` in mame.ini settings.
 
 **`hashpath`** — MAME uses the first `coco_flop.xml` it finds left to right.
-Your user hash directory must come before the MAME install's `hash` directory:
+Your user hash directory must come **before** the MAME install's `hash` directory
+or MAME will use the official (incomplete) list and ignore yours:
 
 Linux:
 ```
@@ -103,27 +104,21 @@ Windows:
 hashpath    C:\Users\<user>\mame\hash;hash
 ```
 
-**`swpath`** — This is what MAME uses to find software list zip files
-(`rompath` is for ROMs, not software lists). Add your user software directory
-as an absolute path first:
+**`rompath`** — This is what MAME uses to find software list zip files.
+Your user software directory must appear here (not just in `swpath`):
 
 Linux:
 ```
-swpath    /home/<user>/.mame/software;software;/media/share1/software
+rompath    software;roms;chds;/media/share1/roms;/media/share1/software
 ```
 
 Windows:
 ```
-swpath    C:\Users\<user>\mame\software;software
+rompath    C:\Users\<user>\mame\software;roms
 ```
 
-### Step 3 — rompath
-
-Leave `rompath` for ROM sets only — remove any software directories from it:
-
-```
-rompath    roms;chds;/media/share1/roms
-```
+> **Note:** `swpath` is only for loose (unzipped) files. Software list zip archives
+> are always located via `rompath`.
 
 ### Using the software list in MAME
 
@@ -136,6 +131,10 @@ Or launch directly from the command line:
 ```
 mame coco3 -flop1 coco_flop:gamename
 ```
+
+Each entry shows the correct BASIC load command (e.g. `RUN"GAME"` or
+`LOADM"GAME":EXEC`) in the MAME UI — select the title, then type the shown command
+at the CoCo BASIC prompt.
 
 ---
 
@@ -234,8 +233,26 @@ create-mame-links.ps1   One-time junction setup (Windows)
 downloads/              Downloaded ZIP files (created on first run)
 archive/                Extracted DSK images, one subfolder per game
 hash/                   Generated output (coco_flop.xml)
-software/coco_flop/     Zipped DSKs for MAME swpath
+software/coco_flop/     Zipped DSKs for MAME rompath
 ```
+
+---
+
+## Troubleshooting
+
+### MAME shows only a handful of entries
+
+- Check that `hashpath` has your user hash directory listed **first** (before `hash`
+  or `/opt/mame/hash`). MAME stops at the first `coco_flop.xml` it finds.
+- Validate the XML: `xmllint --noout hash/coco_flop.xml` — any parse error will
+  cause MAME to silently fall back to the official list.
+- Confirm the symlinks exist: `ls -la ~/.mame/hash ~/.mame/software`
+
+### MAME can't find the disk images
+
+- Confirm `rompath` (not `swpath`) contains the path to `software/coco_flop/`.
+- Zip filenames must exactly match the software name in the XML
+  (the script handles this automatically).
 
 ---
 
