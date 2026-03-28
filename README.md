@@ -111,13 +111,17 @@ The zipped DSK files live in `software/coco_flop/`. MAME must be able to find
 them via `rompath`. Check that `rompath` in `mame.ini` includes your user
 software directory — either directly or via the symlink/junction created above.
 
-A typical Linux `rompath`:
+A typical Linux `rompath` — use the **absolute path** for the user software
+directory, since relative entries resolve from the MAME executable directory,
+not from `~/.mame/`:
 ```
-rompath    software;roms;/media/share1/roms;/media/share1/software
+rompath    /home/<user>/.mame/software;software;roms;/media/share1/roms;/media/share1/software
 ```
 
-The leading `software` entry is relative to where MAME runs and resolves to
-`~/.mame/software` (the symlink) on most setups.
+On Windows:
+```
+rompath    %USERPROFILE%\mame\software;software;roms
+```
 
 ### Using the software list in MAME
 
