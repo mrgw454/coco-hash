@@ -403,7 +403,7 @@ def build_xml_entry(name, description, publisher, usage, compatibility,
         f'{t}{t}<sharedfeat name="compatibility" value="{compatibility}" />',
         f'{t}{t}<part name="flop0" interface="floppy_5_25">',
         f'{t}{t}{t}<dataarea name="flop" size="{filesize}">',
-        f'{t}{t}{t}{t}<rom name="{dsk_filename}" size="{filesize}" '
+        f'{t}{t}{t}{t}<rom name="{_esc_attr(dsk_filename)}" size="{filesize}" '
         f'crc="{crc32}" sha1="{sha1}" offset="0" />',
         f'{t}{t}{t}</dataarea>',
         f'{t}{t}</part>',

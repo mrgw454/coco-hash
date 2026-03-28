@@ -231,7 +231,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="a prelude to chaos (2018)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="994303ee" sha1="275b61d5bb0c5b7106c2858f50ae576b87880a81" offset="0" />
+				<rom name="a prelude to chaos (2018)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="994303ee" sha1="275b61d5bb0c5b7106c2858f50ae576b87880a81" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -283,7 +283,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="aeon part1 v1.1 (2018)(k.v.oss & p.serrat & robcfg)[!].dsk" size="161280" crc="f65cb32e" sha1="be72177f3caaf4df71a36b164e73cb2d3c5aef01" offset="0" />
+				<rom name="aeon part1 v1.1 (2018)(k.v.oss &amp; p.serrat &amp; robcfg)[!].dsk" size="161280" crc="f65cb32e" sha1="be72177f3caaf4df71a36b164e73cb2d3c5aef01" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -296,7 +296,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="aeon part2 v1.1 (2018)(k.v.oss & p.serrat & robcfg)[!].dsk" size="161280" crc="0041d996" sha1="6b2bcd1ebd966e547396787e8926ea5c47365850" offset="0" />
+				<rom name="aeon part2 v1.1 (2018)(k.v.oss &amp; p.serrat &amp; robcfg)[!].dsk" size="161280" crc="0041d996" sha1="6b2bcd1ebd966e547396787e8926ea5c47365850" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -309,7 +309,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="aeon part3 v1.1 (2018)(k.v.oss & p.serrat & robcfg)[!].dsk" size="161280" crc="0bbc5433" sha1="31215eebfdb78f553a34491e15bcf404f6c24959" offset="0" />
+				<rom name="aeon part3 v1.1 (2018)(k.v.oss &amp; p.serrat &amp; robcfg)[!].dsk" size="161280" crc="0bbc5433" sha1="31215eebfdb78f553a34491e15bcf404f6c24959" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -322,7 +322,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="aeon part4 v1.1 (2018)(k.v.oss & p.serrat & robcfg)[!].dsk" size="161280" crc="036e0049" sha1="2be5156c3847dabcb14c2cd4fc10a965621ff086" offset="0" />
+				<rom name="aeon part4 v1.1 (2018)(k.v.oss &amp; p.serrat &amp; robcfg)[!].dsk" size="161280" crc="036e0049" sha1="2be5156c3847dabcb14c2cd4fc10a965621ff086" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -335,7 +335,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="agent blue - day missions (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="e9542dd2" sha1="e18fe06173db478cc002b04273bc49d096fe4d70" offset="0" />
+				<rom name="agent blue - day missions (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="e9542dd2" sha1="e18fe06173db478cc002b04273bc49d096fe4d70" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -348,7 +348,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="agent blue - night missions (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="373748cd" sha1="52c146b7942653a7cd274da62f2f12ea239b8c94" offset="0" />
+				<rom name="agent blue - night missions (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="373748cd" sha1="52c146b7942653a7cd274da62f2f12ea239b8c94" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -361,7 +361,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="akane (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="6dda10b0" sha1="4e73a710baf03964f8b1fabcd30d4bf23a943540" offset="0" />
+				<rom name="akane (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="6dda10b0" sha1="4e73a710baf03964f8b1fabcd30d4bf23a943540" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -387,7 +387,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="alchemist ii - the dungeons (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="b0dda37a" sha1="7bc5f30c4e3155b45f949c41635ae4cc5bb78a25" offset="0" />
+				<rom name="alchemist ii - the dungeons (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="b0dda37a" sha1="7bc5f30c4e3155b45f949c41635ae4cc5bb78a25" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -400,7 +400,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="all hallows (2018)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="f5ccc732" sha1="6711823e4df836874c4410bc52444531d01f6955" offset="0" />
+				<rom name="all hallows (2018)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="f5ccc732" sha1="6711823e4df836874c4410bc52444531d01f6955" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -413,7 +413,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="among bad (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="505c1ea5" sha1="bc8a2359d920aa57bc2344495be3efc8141b6e92" offset="0" />
+				<rom name="among bad (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="505c1ea5" sha1="bc8a2359d920aa57bc2344495be3efc8141b6e92" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -426,7 +426,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="andy's escape (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="71516b71" sha1="1a753951ece5ae684872e010b6fd869941bf0a06" offset="0" />
+				<rom name="andy's escape (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="71516b71" sha1="1a753951ece5ae684872e010b6fd869941bf0a06" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -439,7 +439,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="angry birds (2018)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="5f61b179" sha1="23e22e17a27dabaaef870401f5b04740ce2fd9ff" offset="0" />
+				<rom name="angry birds (2018)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="5f61b179" sha1="23e22e17a27dabaaef870401f5b04740ce2fd9ff" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -452,7 +452,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="antiquity jones (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="72458313" sha1="613c851c16f55369c6dab10a8feecc16f6a75e41" offset="0" />
+				<rom name="antiquity jones (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="72458313" sha1="613c851c16f55369c6dab10a8feecc16f6a75e41" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -465,7 +465,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="apulija-13 (2018)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="4f9aab54" sha1="0c71413fad3bda2ab907a1a47045843a2abe0951" offset="0" />
+				<rom name="apulija-13 (2018)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="4f9aab54" sha1="0c71413fad3bda2ab907a1a47045843a2abe0951" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -504,7 +504,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="aunt rose (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="b159aa69" sha1="e6e41cc5730fc222109d3186f4ed53b7d413eaf4" offset="0" />
+				<rom name="aunt rose (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="b159aa69" sha1="e6e41cc5730fc222109d3186f4ed53b7d413eaf4" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -530,7 +530,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="baby monkey alba (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="bef76679" sha1="d137b98249f3dd90fb5078ad9339a9b655d44324" offset="0" />
+				<rom name="baby monkey alba (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="bef76679" sha1="d137b98249f3dd90fb5078ad9339a9b655d44324" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -543,7 +543,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="baffo jones (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="5b1d469f" sha1="428de4f9263f88fe91da85cf0e47122bdc78bf02" offset="0" />
+				<rom name="baffo jones (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="5b1d469f" sha1="428de4f9263f88fe91da85cf0e47122bdc78bf02" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -556,7 +556,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="baldy zx v1.1(2018)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="f0ab59d4" sha1="bd21d80f097147a66b917718dc53a7b8e0a4b1b8" offset="0" />
+				<rom name="baldy zx v1.1(2018)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="f0ab59d4" sha1="bd21d80f097147a66b917718dc53a7b8e0a4b1b8" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -569,7 +569,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="bandito (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="8d1573c2" sha1="94fa51a6b48c11e47ed6db67be422310aaf98029" offset="0" />
+				<rom name="bandito (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="8d1573c2" sha1="94fa51a6b48c11e47ed6db67be422310aaf98029" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -595,7 +595,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="bean brothers (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="2b058b30" sha1="81c2fb5d032443b763a84fbea4a2d78f12910521" offset="0" />
+				<rom name="bean brothers (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="2b058b30" sha1="81c2fb5d032443b763a84fbea4a2d78f12910521" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -608,7 +608,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="being left is not right (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="ea9551af" sha1="6efa5ad7f415c783e96b8e868ceed1d6a141e832" offset="0" />
+				<rom name="being left is not right (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="ea9551af" sha1="6efa5ad7f415c783e96b8e868ceed1d6a141e832" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -621,7 +621,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="billy's quest (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="d75ae7f6" sha1="154d032114e5b2c853c6e9c83152e2eefdfcda6d" offset="0" />
+				<rom name="billy's quest (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="d75ae7f6" sha1="154d032114e5b2c853c6e9c83152e2eefdfcda6d" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -634,7 +634,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="binary (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="2cefb6d9" sha1="ce369df0009418382d1057575ccdaaefd7cb9169" offset="0" />
+				<rom name="binary (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="2cefb6d9" sha1="ce369df0009418382d1057575ccdaaefd7cb9169" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -660,7 +660,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="bob the blob (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="31f4d2e1" sha1="c450fc246d64cb29036851bf441af8ad12d84e59" offset="0" />
+				<rom name="bob the blob (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="31f4d2e1" sha1="c450fc246d64cb29036851bf441af8ad12d84e59" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -673,7 +673,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="bot floater (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="3e372704" sha1="889b4ed8a08094a9f27eef9689ce1ff796384853" offset="0" />
+				<rom name="bot floater (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="3e372704" sha1="889b4ed8a08094a9f27eef9689ce1ff796384853" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -699,7 +699,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="breakanoid (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="7a85a2b2" sha1="cd5411956c8d9f562e736385ee9e71fd37cf07d6" offset="0" />
+				<rom name="breakanoid (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="7a85a2b2" sha1="cd5411956c8d9f562e736385ee9e71fd37cf07d6" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -712,7 +712,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="brick racer v1.1 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="aeb1f031" sha1="262e5e2035454492353cc9a52da7abda279847c0" offset="0" />
+				<rom name="brick racer v1.1 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="aeb1f031" sha1="262e5e2035454492353cc9a52da7abda279847c0" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -751,7 +751,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="bullet storm (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="5c791024" sha1="e1af9adf9f541ac5fd3bbba7d87f35d9b4a7161f" offset="0" />
+				<rom name="bullet storm (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="5c791024" sha1="e1af9adf9f541ac5fd3bbba7d87f35d9b4a7161f" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -855,7 +855,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="castle of sorrow (2018)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="abf1c23b" sha1="1331a6f813384813b33e6f3f097a4fbb178f9e93" offset="0" />
+				<rom name="castle of sorrow (2018)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="abf1c23b" sha1="1331a6f813384813b33e6f3f097a4fbb178f9e93" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -868,7 +868,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="catch a hare v1.1 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="c06a8391" sha1="17341bb9fec53608f604e9b5b9b8edacf0f4a4f0" offset="0" />
+				<rom name="catch a hare v1.1 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="c06a8391" sha1="17341bb9fec53608f604e9b5b9b8edacf0f4a4f0" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -894,7 +894,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="cattivik level 1 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="58dc0ac4" sha1="9aba127b11b515f2c2ada5ff108f22be356959f4" offset="0" />
+				<rom name="cattivik level 1 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="58dc0ac4" sha1="9aba127b11b515f2c2ada5ff108f22be356959f4" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -907,7 +907,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="cattivik level 2 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="40e53474" sha1="170f5a1a6fdd20c66e86b33b735a7d6708fac3c7" offset="0" />
+				<rom name="cattivik level 2 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="40e53474" sha1="170f5a1a6fdd20c66e86b33b735a7d6708fac3c7" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -920,7 +920,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="cattivik level 3 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="1753e93e" sha1="26e051eb6711bf85a30c6aae3d76a3d628016ddd" offset="0" />
+				<rom name="cattivik level 3 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="1753e93e" sha1="26e051eb6711bf85a30c6aae3d76a3d628016ddd" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -933,7 +933,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="cherry challenge (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="192c528c" sha1="bd37831fba6951814cd8018d94a7ce7f9b7d457e" offset="0" />
+				<rom name="cherry challenge (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="192c528c" sha1="bd37831fba6951814cd8018d94a7ce7f9b7d457e" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -946,7 +946,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="chiquito-pecador de la pradera (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="039d166c" sha1="6cdbe45ba3afccbd6dc2408f6dc212bcc420ce92" offset="0" />
+				<rom name="chiquito-pecador de la pradera (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="039d166c" sha1="6cdbe45ba3afccbd6dc2408f6dc212bcc420ce92" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -959,7 +959,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="chopper drop (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="103c82d1" sha1="91161b7893a60a06c5bb795e4cd9555d5fd0a3fe" offset="0" />
+				<rom name="chopper drop (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="103c82d1" sha1="91161b7893a60a06c5bb795e4cd9555d5fd0a3fe" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -972,7 +972,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="christmas gift hunt (2018)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="92c223d3" sha1="4f42588bc4e5fc5f58fce2dcf9a61d8125a53736" offset="0" />
+				<rom name="christmas gift hunt (2018)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="92c223d3" sha1="4f42588bc4e5fc5f58fce2dcf9a61d8125a53736" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -985,7 +985,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="chunkzone (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="4e335b95" sha1="995c5eff79eaa11f5061806ceaf2704839a40dc2" offset="0" />
+				<rom name="chunkzone (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="4e335b95" sha1="995c5eff79eaa11f5061806ceaf2704839a40dc2" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1024,7 +1024,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="code-112 (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="87ac95c0" sha1="09f0be21c8c9f8aacf416a2ea1c61552e73f8861" offset="0" />
+				<rom name="code-112 (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="87ac95c0" sha1="09f0be21c8c9f8aacf416a2ea1c61552e73f8861" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1063,7 +1063,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="cronopios y famas (2018)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="f5e86ac1" sha1="91b72e5de2e55590f8d7b36ef458ddfcecfa080b" offset="0" />
+				<rom name="cronopios y famas (2018)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="f5e86ac1" sha1="91b72e5de2e55590f8d7b36ef458ddfcecfa080b" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1089,7 +1089,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="dan terrific iii (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="efe03b67" sha1="53f769ad77e2257e7dd8dd98884209c0414ed7ba" offset="0" />
+				<rom name="dan terrific iii (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="efe03b67" sha1="53f769ad77e2257e7dd8dd98884209c0414ed7ba" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1115,7 +1115,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="dark castle (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="c864d8ea" sha1="b1d5f178b9f43c8e708d6ff89ede0eabba80bbf0" offset="0" />
+				<rom name="dark castle (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="c864d8ea" sha1="b1d5f178b9f43c8e708d6ff89ede0eabba80bbf0" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1167,7 +1167,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="dead zone (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="823ebce3" sha1="543b8c7d496350d004cd90b3e366111b022217df" offset="0" />
+				<rom name="dead zone (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="823ebce3" sha1="543b8c7d496350d004cd90b3e366111b022217df" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1193,7 +1193,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="defeat joey jumpy (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="895c2fb2" sha1="fe9e3cd3c02f8b451e747407b23cdc605d835411" offset="0" />
+				<rom name="defeat joey jumpy (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="895c2fb2" sha1="fe9e3cd3c02f8b451e747407b23cdc605d835411" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1232,7 +1232,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="dirty dozer (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="bff212b0" sha1="235d6b068f82acd9dabe0a4485ba1e654d161b1d" offset="0" />
+				<rom name="dirty dozer (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="bff212b0" sha1="235d6b068f82acd9dabe0a4485ba1e654d161b1d" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1245,7 +1245,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="dirty dozer 2 (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="948ab6f4" sha1="76d8d920410a0f3802210a618314ba27d5b968ac" offset="0" />
+				<rom name="dirty dozer 2 (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="948ab6f4" sha1="76d8d920410a0f3802210a618314ba27d5b968ac" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1258,7 +1258,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="donkey kong jr (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="454118a3" sha1="38c4a9b017acb7ce72e92e360cdd539f1ad661fd" offset="0" />
+				<rom name="donkey kong jr (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="454118a3" sha1="38c4a9b017acb7ce72e92e360cdd539f1ad661fd" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1284,7 +1284,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="donkey kong reloaded (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="0d071524" sha1="a7fd7cb86d370a8c246a52e2d1f4457df6d7a9f5" offset="0" />
+				<rom name="donkey kong reloaded (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="0d071524" sha1="a7fd7cb86d370a8c246a52e2d1f4457df6d7a9f5" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1297,7 +1297,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="donkey kong reloaded again (2022)(k.v.oss & p.serrat[!].dsk" size="161280" crc="9468ce2f" sha1="e134b93ccee5d1dfec89e530df0e42ef22ce2516" offset="0" />
+				<rom name="donkey kong reloaded again (2022)(k.v.oss &amp; p.serrat[!].dsk" size="161280" crc="9468ce2f" sha1="e134b93ccee5d1dfec89e530df0e42ef22ce2516" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1323,7 +1323,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="doom pit part 1 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="9762c94f" sha1="e2c7672517a1d7266a31ed8be50e3e594a75f4a5" offset="0" />
+				<rom name="doom pit part 1 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="9762c94f" sha1="e2c7672517a1d7266a31ed8be50e3e594a75f4a5" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1336,7 +1336,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="doom pit part 2 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="d2ba7940" sha1="8d16451c1be8d94c89c57832eb4a5ed9ec640121" offset="0" />
+				<rom name="doom pit part 2 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="d2ba7940" sha1="8d16451c1be8d94c89c57832eb4a5ed9ec640121" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1349,7 +1349,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="doom pit part 3 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="23b2a902" sha1="402e090b8177dfe19589102d01b71a1c0d55fff8" offset="0" />
+				<rom name="doom pit part 3 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="23b2a902" sha1="402e090b8177dfe19589102d01b71a1c0d55fff8" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1362,7 +1362,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="double bubble (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="d7edb6da" sha1="7a90fba48f03877c9b990c8aad3a7a6c7664f430" offset="0" />
+				<rom name="double bubble (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="d7edb6da" sha1="7a90fba48f03877c9b990c8aad3a7a6c7664f430" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1388,7 +1388,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="dragon with a wagon (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="b43188d5" sha1="70f0d3417966a48e3c87bf653944c6e988e9295e" offset="0" />
+				<rom name="dragon with a wagon (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="b43188d5" sha1="70f0d3417966a48e3c87bf653944c6e988e9295e" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1453,7 +1453,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="ferret buster (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="801c8754" sha1="0ad84ea4490ffd57c271c4fa63f9c7af4b4ff52b" offset="0" />
+				<rom name="ferret buster (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="801c8754" sha1="0ad84ea4490ffd57c271c4fa63f9c7af4b4ff52b" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1466,7 +1466,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="find the green room (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="ea751418" sha1="2913a4e184696dadde05e8f358d59f544aa3e371" offset="0" />
+				<rom name="find the green room (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="ea751418" sha1="2913a4e184696dadde05e8f358d59f544aa3e371" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1479,7 +1479,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="flappy, the ghost (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="9edee82a" sha1="7b386af0547f3a6382f7c28af71d1a552fe7c25f" offset="0" />
+				<rom name="flappy, the ghost (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="9edee82a" sha1="7b386af0547f3a6382f7c28af71d1a552fe7c25f" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1492,7 +1492,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="flipping horace (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="d0a76d5d" sha1="9bd91a15c7466a1b01c86b02d2517cc3351307f4" offset="0" />
+				<rom name="flipping horace (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="d0a76d5d" sha1="9bd91a15c7466a1b01c86b02d2517cc3351307f4" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1531,7 +1531,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="forward to the past (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="805b72ca" sha1="d13b5c55fe88a0c64dc1a2786478660cd5614731" offset="0" />
+				<rom name="forward to the past (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="805b72ca" sha1="d13b5c55fe88a0c64dc1a2786478660cd5614731" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1544,7 +1544,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="funky fungus level 1 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="1fd24434" sha1="021050e9fde2c4e204b6a53c9893c8e31ba8c32a" offset="0" />
+				<rom name="funky fungus level 1 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="1fd24434" sha1="021050e9fde2c4e204b6a53c9893c8e31ba8c32a" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1557,7 +1557,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="funky fungus level 2 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="b1d81f0c" sha1="01b09949e51c23033d07ce6a9a081cba9610081e" offset="0" />
+				<rom name="funky fungus level 2 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="b1d81f0c" sha1="01b09949e51c23033d07ce6a9a081cba9610081e" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1570,7 +1570,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="funky fungus level 3 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="94494327" sha1="93ca6e25b7f367c0bf834b9417651b1f416824a8" offset="0" />
+				<rom name="funky fungus level 3 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="94494327" sha1="93ca6e25b7f367c0bf834b9417651b1f416824a8" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1583,7 +1583,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="funky fungus level 4 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="835ae748" sha1="cd7246764b507ee4d38a587ad81faefebb2e87be" offset="0" />
+				<rom name="funky fungus level 4 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="835ae748" sha1="cd7246764b507ee4d38a587ad81faefebb2e87be" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1596,7 +1596,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="funky fungus reloaded boss (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="33f3ab76" sha1="bbf45d3ac5f82801cba18b850e17c6daf9f6c844" offset="0" />
+				<rom name="funky fungus reloaded boss (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="33f3ab76" sha1="bbf45d3ac5f82801cba18b850e17c6daf9f6c844" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1609,7 +1609,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="funky fungus reloaded world1 (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="2d684b0c" sha1="3c349424e4044154e9e755729d2ff8cb356f4403" offset="0" />
+				<rom name="funky fungus reloaded world1 (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="2d684b0c" sha1="3c349424e4044154e9e755729d2ff8cb356f4403" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1622,7 +1622,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="funky fungus reloaded world2 (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="a8f118c0" sha1="c8f3d57bb96c7834c3432894ba1373b80f99e6a1" offset="0" />
+				<rom name="funky fungus reloaded world2 (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="a8f118c0" sha1="c8f3d57bb96c7834c3432894ba1373b80f99e6a1" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1635,7 +1635,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="funky fungus reloaded world3 (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="1dbd1ddf" sha1="ccd107c762cb4eb5a0be28045e09929e4d3dabc6" offset="0" />
+				<rom name="funky fungus reloaded world3 (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="1dbd1ddf" sha1="ccd107c762cb4eb5a0be28045e09929e4d3dabc6" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1648,7 +1648,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="funky fungus reloaded world4 (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="154e967c" sha1="5b18cc54e9e1e1a52d875f50569d15320264f542" offset="0" />
+				<rom name="funky fungus reloaded world4 (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="154e967c" sha1="5b18cc54e9e1e1a52d875f50569d15320264f542" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1674,7 +1674,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="generacio digital (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="05225985" sha1="aae9aa04ced2895d43796efab00180ad3817059b" offset="0" />
+				<rom name="generacio digital (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="05225985" sha1="aae9aa04ced2895d43796efab00180ad3817059b" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1700,7 +1700,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="gherkins christmas carnage (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="71b0d63b" sha1="e40922b1617818e69d34c64cedf5a6c8dd3d843d" offset="0" />
+				<rom name="gherkins christmas carnage (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="71b0d63b" sha1="e40922b1617818e69d34c64cedf5a6c8dd3d843d" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1713,7 +1713,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="gnoni 2020 (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="b31f912e" sha1="0029bb30ffe6e9dc3b6ff8d64d089fa49452c798" offset="0" />
+				<rom name="gnoni 2020 (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="b31f912e" sha1="0029bb30ffe6e9dc3b6ff8d64d089fa49452c798" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1726,7 +1726,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="good night kanga (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="9b284607" sha1="d1996b1f02f97ea5280b88929d50ed6deb686b9b" offset="0" />
+				<rom name="good night kanga (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="9b284607" sha1="d1996b1f02f97ea5280b88929d50ed6deb686b9b" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1739,7 +1739,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="grumpy santa v1.2 (2018)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="d96d9b9b" sha1="d9fc4be194e436982c6257992fa8b5e7c011a4e0" offset="0" />
+				<rom name="grumpy santa v1.2 (2018)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="d96d9b9b" sha1="d9fc4be194e436982c6257992fa8b5e7c011a4e0" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1778,7 +1778,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="higgy ii the wrath of mcmania (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="1f81938c" sha1="7c09230cc25977872d0289219319dc9be2bf4586" offset="0" />
+				<rom name="higgy ii the wrath of mcmania (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="1f81938c" sha1="7c09230cc25977872d0289219319dc9be2bf4586" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1830,7 +1830,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="impossabubble (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="cc0c665d" sha1="99407ea08b58259470157f3d29058272b2f4c5fb" offset="0" />
+				<rom name="impossabubble (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="cc0c665d" sha1="99407ea08b58259470157f3d29058272b2f4c5fb" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1856,7 +1856,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="indiana jones & fountain of everlasting life (2019)(p.serrat)[!].dsk" size="161280" crc="d1aaaa60" sha1="6709dceb6884ec3a272a8e31ea846e7b2d9d8ee1" offset="0" />
+				<rom name="indiana jones &amp; fountain of everlasting life (2019)(p.serrat)[!].dsk" size="161280" crc="d1aaaa60" sha1="6709dceb6884ec3a272a8e31ea846e7b2d9d8ee1" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1869,7 +1869,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="javi pomez (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="adb7d555" sha1="492aaa126873b84ea5718a9ca2ae27b004c665d4" offset="0" />
+				<rom name="javi pomez (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="adb7d555" sha1="492aaa126873b84ea5718a9ca2ae27b004c665d4" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1895,7 +1895,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="jet pack neo (demo)(2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="95391484" sha1="238004204b47fbfbc4e02b44da3500b9abdbad1b" offset="0" />
+				<rom name="jet pack neo (demo)(2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="95391484" sha1="238004204b47fbfbc4e02b44da3500b9abdbad1b" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1908,7 +1908,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="jet pack neo (slow)(2021)(k.v.oss) & p.serrat)[!].dsk" size="161280" crc="88756d7f" sha1="f6fa7361297408d2496cee9cc44caa011041e85f" offset="0" />
+				<rom name="jet pack neo (slow)(2021)(k.v.oss) &amp; p.serrat)[!].dsk" size="161280" crc="88756d7f" sha1="f6fa7361297408d2496cee9cc44caa011041e85f" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1934,7 +1934,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="jumpcollision v2.0 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="6fa23ecf" sha1="8ce29ba426ea57bb4368945126a933c25f115652" offset="0" />
+				<rom name="jumpcollision v2.0 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="6fa23ecf" sha1="8ce29ba426ea57bb4368945126a933c25f115652" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -1999,7 +1999,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="krap park (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="345910bf" sha1="b86dea281066e12a09ba7df3a731bde64e879788" offset="0" />
+				<rom name="krap park (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="345910bf" sha1="b86dea281066e12a09ba7df3a731bde64e879788" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2012,7 +2012,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="kyd cadet (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="f06482e3" sha1="4a84847efef5f36e34058d01ff5e2fc994f36153" offset="0" />
+				<rom name="kyd cadet (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="f06482e3" sha1="4a84847efef5f36e34058d01ff5e2fc994f36153" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2038,7 +2038,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="kyd cadet ii - the resue of pobbleflu (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="33e9629f" sha1="e6989d553ee8e64076dab9947c50aac7fba4ed9b" offset="0" />
+				<rom name="kyd cadet ii - the resue of pobbleflu (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="33e9629f" sha1="e6989d553ee8e64076dab9947c50aac7fba4ed9b" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2103,7 +2103,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="land of miremare v1.1 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="43299128" sha1="5da6856618d76282bb0eb4555a9058d41aad3ea9" offset="0" />
+				<rom name="land of miremare v1.1 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="43299128" sha1="5da6856618d76282bb0eb4555a9058d41aad3ea9" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2116,7 +2116,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="le llamaban trinidad (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="9347feed" sha1="80183917c6e5f502ab4e0adc6e10e170cd85a00d" offset="0" />
+				<rom name="le llamaban trinidad (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="9347feed" sha1="80183917c6e5f502ab4e0adc6e10e170cd85a00d" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2142,7 +2142,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="little dragon 2 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="5e39e121" sha1="dc9f684525526be00e938db1cafd5c39efe06500" offset="0" />
+				<rom name="little dragon 2 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="5e39e121" sha1="dc9f684525526be00e938db1cafd5c39efe06500" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2155,7 +2155,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="little dragon 2 (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="788c74c0" sha1="377d160358d631d227888b3c329896eb67a049ad" offset="0" />
+				<rom name="little dragon 2 (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="788c74c0" sha1="377d160358d631d227888b3c329896eb67a049ad" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2168,7 +2168,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="lost cavern (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="dd453076" sha1="ec005bae581293547c9d2cb5a29f09ad0e76a3e5" offset="0" />
+				<rom name="lost cavern (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="dd453076" sha1="ec005bae581293547c9d2cb5a29f09ad0e76a3e5" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2194,7 +2194,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="lost in space (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="2b942654" sha1="8f8de2027cf467cc5469ac189cc3f72b03cc5d13" offset="0" />
+				<rom name="lost in space (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="2b942654" sha1="8f8de2027cf467cc5469ac189cc3f72b03cc5d13" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2207,7 +2207,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="lost little spaceman (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="2cb50676" sha1="6ee6010fb47e5ee40b8181dc915f2da58b51af18" offset="0" />
+				<rom name="lost little spaceman (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="2cb50676" sha1="6ee6010fb47e5ee40b8181dc915f2da58b51af18" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2220,7 +2220,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="lupo alberto (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="0b5ecef8" sha1="3fa619effdfada55ac4acd3ffaefa3713aeb538f" offset="0" />
+				<rom name="lupo alberto (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="0b5ecef8" sha1="3fa619effdfada55ac4acd3ffaefa3713aeb538f" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2233,7 +2233,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="mabus mania (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="5a2fce87" sha1="d9d0e464d8242f10b14201670ee2ada004f43eaa" offset="0" />
+				<rom name="mabus mania (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="5a2fce87" sha1="d9d0e464d8242f10b14201670ee2ada004f43eaa" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2246,7 +2246,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="magic able (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="57dd2451" sha1="61d8f7832e82375b9f4069e5f3026539b807b21c" offset="0" />
+				<rom name="magic able (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="57dd2451" sha1="61d8f7832e82375b9f4069e5f3026539b807b21c" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2259,7 +2259,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="mark gets sucked in (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="c97d0cff" sha1="0c9df8c622f144aa00317cbc69dc05111ded2c7e" offset="0" />
+				<rom name="mark gets sucked in (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="c97d0cff" sha1="0c9df8c622f144aa00317cbc69dc05111ded2c7e" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2272,7 +2272,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="mega manic mulholland (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="8e7dcf06" sha1="a6ff868ac26ff8f62e52f61f02a1de2070873398" offset="0" />
+				<rom name="mega manic mulholland (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="8e7dcf06" sha1="a6ff868ac26ff8f62e52f61f02a1de2070873398" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2324,7 +2324,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="miremare (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="067b1638" sha1="7f96c012464244bde4c5c37a0c745f776c5597e6" offset="0" />
+				<rom name="miremare (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="067b1638" sha1="7f96c012464244bde4c5c37a0c745f776c5597e6" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2337,7 +2337,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="mission on mars (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="96d82fd9" sha1="4add6988440015ea00b7a874167edc2480ace221" offset="0" />
+				<rom name="mission on mars (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="96d82fd9" sha1="4add6988440015ea00b7a874167edc2480ace221" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2350,7 +2350,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="monkey jr in the treasure of the gold temple (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="8ecf22c1" sha1="d927ad122388fca3de6316e9b8bda141bd11a586" offset="0" />
+				<rom name="monkey jr in the treasure of the gold temple (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="8ecf22c1" sha1="d927ad122388fca3de6316e9b8bda141bd11a586" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2363,7 +2363,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="monty - the last strike (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="b23c87c1" sha1="3112edf2a0f5da2909422522ea4ceed9595426d1" offset="0" />
+				<rom name="monty - the last strike (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="b23c87c1" sha1="3112edf2a0f5da2909422522ea4ceed9595426d1" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2376,7 +2376,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="monty mole & the temple of lost souls v1.2 (2019)(p.serrat)[!].dsk" size="161280" crc="a0939df5" sha1="65c2e4786f8d2cce1bbe31be13ed01da2396c228" offset="0" />
+				<rom name="monty mole &amp; the temple of lost souls v1.2 (2019)(p.serrat)[!].dsk" size="161280" crc="a0939df5" sha1="65c2e4786f8d2cce1bbe31be13ed01da2396c228" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2402,7 +2402,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="monty's last strike (2018)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="716c0606" sha1="18877240880b730923da58a3dd845aaad723f1cd" offset="0" />
+				<rom name="monty's last strike (2018)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="716c0606" sha1="18877240880b730923da58a3dd845aaad723f1cd" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2428,7 +2428,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="moritz the striker (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="32a29675" sha1="893d7e5a6bb1cc7ff081ae8daacf770e256e67c1" offset="0" />
+				<rom name="moritz the striker (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="32a29675" sha1="893d7e5a6bb1cc7ff081ae8daacf770e256e67c1" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2441,7 +2441,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="mouser (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="cffd3173" sha1="329c339536ef5f999f482c82cc4bfb0cf1e44bab" offset="0" />
+				<rom name="mouser (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="cffd3173" sha1="329c339536ef5f999f482c82cc4bfb0cf1e44bab" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2454,7 +2454,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="mr hair & the fly (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="dad27f3b" sha1="60c9a4a49d9ae88686e4bf8cecb9d0a40cf858c8" offset="0" />
+				<rom name="mr hair &amp; the fly (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="dad27f3b" sha1="60c9a4a49d9ae88686e4bf8cecb9d0a40cf858c8" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2467,7 +2467,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="mr vintik (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="305d61cb" sha1="27ab489745ee5ac7d39587bec2e5b523ff4043e8" offset="0" />
+				<rom name="mr vintik (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="305d61cb" sha1="27ab489745ee5ac7d39587bec2e5b523ff4043e8" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2493,7 +2493,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="mysterious dimensions part 2 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="c8463fd0" sha1="afe20bfeb4cd1acda37dedbedd189aa82fd35ffb" offset="0" />
+				<rom name="mysterious dimensions part 2 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="c8463fd0" sha1="afe20bfeb4cd1acda37dedbedd189aa82fd35ffb" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2506,7 +2506,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="mystery - presentation (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="0f377d3f" sha1="7288aefe1ee0b41190cf2e776b6b1f63184a1215" offset="0" />
+				<rom name="mystery - presentation (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="0f377d3f" sha1="7288aefe1ee0b41190cf2e776b6b1f63184a1215" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2519,7 +2519,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="mystery part 1 (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="166d0a55" sha1="a5609e870b132ac00e3f768bb4678ad3cfecd44d" offset="0" />
+				<rom name="mystery part 1 (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="166d0a55" sha1="a5609e870b132ac00e3f768bb4678ad3cfecd44d" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2532,7 +2532,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="mystery part ii (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="3302b2a8" sha1="e304fef7a16445fed0022aaabfdda0df9a8b223f" offset="0" />
+				<rom name="mystery part ii (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="3302b2a8" sha1="e304fef7a16445fed0022aaabfdda0df9a8b223f" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2545,7 +2545,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="mystery part iii (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="f2284f27" sha1="2812274b8e56a94cbc8b20371505f59a58bb468d" offset="0" />
+				<rom name="mystery part iii (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="f2284f27" sha1="2812274b8e56a94cbc8b20371505f59a58bb468d" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2558,7 +2558,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="nadral (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="dde9c426" sha1="3bff67faa89b5c44e055cf12123f690cc0e0b17e" offset="0" />
+				<rom name="nadral (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="dde9c426" sha1="3bff67faa89b5c44e055cf12123f690cc0e0b17e" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2584,7 +2584,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="never more (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="5682948e" sha1="f80cf51c701e7cbc96afcfa81ae6d8f43296c551" offset="0" />
+				<rom name="never more (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="5682948e" sha1="f80cf51c701e7cbc96afcfa81ae6d8f43296c551" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2649,7 +2649,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="nixy and the seeds of doom (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="6e1a174d" sha1="0e8e4290dc6fc2ee4d6b02f4ffd64c6d72745b72" offset="0" />
+				<rom name="nixy and the seeds of doom (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="6e1a174d" sha1="0e8e4290dc6fc2ee4d6b02f4ffd64c6d72745b72" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2662,7 +2662,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="nixy the glade sprite (k.v.oss & p.serrat)[!].dsk" size="161280" crc="ff305214" sha1="0517381ca1735cb96891e4b322f7e585e727c741" offset="0" />
+				<rom name="nixy the glade sprite (k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="ff305214" sha1="0517381ca1735cb96891e4b322f7e585e727c741" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2701,7 +2701,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="oh la la (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="43965842" sha1="e2e450ccfaec6c806f6bfc180f2ffaf3ea09d843" offset="0" />
+				<rom name="oh la la (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="43965842" sha1="e2e450ccfaec6c806f6bfc180f2ffaf3ea09d843" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2727,7 +2727,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="ooze (k.v.oss & p.serrat)[!].dsk" size="161280" crc="d16caa77" sha1="a841d8c3c7d6062da547341850aa592de97773e1" offset="0" />
+				<rom name="ooze (k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="d16caa77" sha1="a841d8c3c7d6062da547341850aa592de97773e1" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2740,7 +2740,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="operation labyrinth fall (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="a056d08a" sha1="428bcc184ac8fa5d338d6aff265dcbbe04475560" offset="0" />
+				<rom name="operation labyrinth fall (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="a056d08a" sha1="428bcc184ac8fa5d338d6aff265dcbbe04475560" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2753,7 +2753,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="page & the curse of the pharaoh (2019)(p.serrat)[!].dsk" size="161280" crc="0a6185d5" sha1="4b3ddd8d41dc6f2f9f5b960a243021b89b61a2c8" offset="0" />
+				<rom name="page &amp; the curse of the pharaoh (2019)(p.serrat)[!].dsk" size="161280" crc="0a6185d5" sha1="4b3ddd8d41dc6f2f9f5b960a243021b89b61a2c8" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2779,7 +2779,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="papyrus (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="a073000b" sha1="cbed04a3d76f1f70ebc4c47deb3cd15470ed2c81" offset="0" />
+				<rom name="papyrus (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="a073000b" sha1="cbed04a3d76f1f70ebc4c47deb3cd15470ed2c81" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2792,7 +2792,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="parachute v2.0 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="2c7cd427" sha1="b3a96a01e74a82949519a17f1db02a734bc8580b" offset="0" />
+				<rom name="parachute v2.0 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="2c7cd427" sha1="b3a96a01e74a82949519a17f1db02a734bc8580b" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2805,7 +2805,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="pengo quest (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="cd2bb372" sha1="ac338611b25e30d86c62c683cd85c4ee02c540de" offset="0" />
+				<rom name="pengo quest (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="cd2bb372" sha1="ac338611b25e30d86c62c683cd85c4ee02c540de" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2818,7 +2818,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="percy penguin in the present palaver (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="25385a38" sha1="acd18d457d14c54505905e1df3ea86a56cee96ab" offset="0" />
+				<rom name="percy penguin in the present palaver (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="25385a38" sha1="acd18d457d14c54505905e1df3ea86a56cee96ab" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2831,7 +2831,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="pickaxe pete (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="dc0a0e85" sha1="e0bc12db0265e1ed671ea320da67b6adfa1c8ca9" offset="0" />
+				<rom name="pickaxe pete (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="dc0a0e85" sha1="e0bc12db0265e1ed671ea320da67b6adfa1c8ca9" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2844,7 +2844,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="pink pills - manic moritz & the meds (2019)(p.serrat)[!].dsk" size="161280" crc="07059923" sha1="ee37337db212bdee42d67ea18e6177e9bc490fd4" offset="0" />
+				<rom name="pink pills - manic moritz &amp; the meds (2019)(p.serrat)[!].dsk" size="161280" crc="07059923" sha1="ee37337db212bdee42d67ea18e6177e9bc490fd4" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2857,7 +2857,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="pitfall iii - wrath of kingcrock (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="5afc45e3" sha1="e5ef43f64cd38b3b4e3ec1d306fc0f6f28249700" offset="0" />
+				<rom name="pitfall iii - wrath of kingcrock (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="5afc45e3" sha1="e5ef43f64cd38b3b4e3ec1d306fc0f6f28249700" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2870,7 +2870,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="platform prodigy (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="821347c1" sha1="ce6a003bae1c7b513cd557808058411e437370bf" offset="0" />
+				<rom name="platform prodigy (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="821347c1" sha1="ce6a003bae1c7b513cd557808058411e437370bf" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2909,7 +2909,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="ptm (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="2dc8ee3b" sha1="dcfbb9203d304180759c129f0483c903895e9ff1" offset="0" />
+				<rom name="ptm (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="2dc8ee3b" sha1="dcfbb9203d304180759c129f0483c903895e9ff1" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2935,7 +2935,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="qbox (k.v.oss & p.serrat)[!].dsk" size="161280" crc="1a9bd294" sha1="7eaa3f179131d9c6245259733cf94cd3edc2389b" offset="0" />
+				<rom name="qbox (k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="1a9bd294" sha1="7eaa3f179131d9c6245259733cf94cd3edc2389b" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2948,7 +2948,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="quahappy (k.v.oss & p.serrat)[!].dsk" size="161280" crc="2da0f591" sha1="0c691a629c765730a234b107bc426cd48365d26f" offset="0" />
+				<rom name="quahappy (k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="2da0f591" sha1="0c691a629c765730a234b107bc426cd48365d26f" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2961,7 +2961,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="quest for elements (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="de73965d" sha1="719dfbd72c57bf7734c4163852b1d456992ba661" offset="0" />
+				<rom name="quest for elements (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="de73965d" sha1="719dfbd72c57bf7734c4163852b1d456992ba661" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -2974,7 +2974,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="r2-d2 (exam) (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="e50df667" sha1="a41c8ac1ca52be458317b5af36565464b2d365dd" offset="0" />
+				<rom name="r2-d2 (exam) (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="e50df667" sha1="a41c8ac1ca52be458317b5af36565464b2d365dd" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3000,7 +3000,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="rays' reprisal (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="057faca8" sha1="4844ff940329de6ea6020082fe18d3e6db281880" offset="0" />
+				<rom name="rays' reprisal (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="057faca8" sha1="4844ff940329de6ea6020082fe18d3e6db281880" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3039,7 +3039,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="restless (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="c27622c4" sha1="68b6b2b3df0eea9729db9e6d0de84cd12e5115da" offset="0" />
+				<rom name="restless (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="c27622c4" sha1="68b6b2b3df0eea9729db9e6d0de84cd12e5115da" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3065,7 +3065,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="robot 1 in the ship of doom (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="85952424" sha1="b3e876d1e54d958bc7320917d2aa5e62b620b554" offset="0" />
+				<rom name="robot 1 in the ship of doom (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="85952424" sha1="b3e876d1e54d958bc7320917d2aa5e62b620b554" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3078,7 +3078,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="robot santa (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="40bde1b0" sha1="1dd2f86c662c4b1cfdc9edd659869b43930cbfcc" offset="0" />
+				<rom name="robot santa (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="40bde1b0" sha1="1dd2f86c662c4b1cfdc9edd659869b43930cbfcc" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3091,7 +3091,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="robot, the impossible mission (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="77a29e18" sha1="3c9920ded1c4bdbd35dd1915c92319649a70b535" offset="0" />
+				<rom name="robot, the impossible mission (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="77a29e18" sha1="3c9920ded1c4bdbd35dd1915c92319649a70b535" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3130,7 +3130,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="rocky roads and divots (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="7d556659" sha1="5be56d9f73930c87b7e06333c7a18b6469ce55d5" offset="0" />
+				<rom name="rocky roads and divots (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="7d556659" sha1="5be56d9f73930c87b7e06333c7a18b6469ce55d5" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3169,7 +3169,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="rudolph rescues xmas (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="0dc83a60" sha1="c61eea837ec7c0a7630b3144898f96bac93d4e30" offset="0" />
+				<rom name="rudolph rescues xmas (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="0dc83a60" sha1="c61eea837ec7c0a7630b3144898f96bac93d4e30" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3195,7 +3195,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="save the world theme park (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="630c4b6d" sha1="03715b7bdc15853dda9c16bb851183e6e86a84e8" offset="0" />
+				<rom name="save the world theme park (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="630c4b6d" sha1="03715b7bdc15853dda9c16bb851183e6e86a84e8" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3208,7 +3208,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="sc0tb0t (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="f0da5440" sha1="73b9e2c7821b017da2d348b732ac79cc95dd6daf" offset="0" />
+				<rom name="sc0tb0t (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="f0da5440" sha1="73b9e2c7821b017da2d348b732ac79cc95dd6daf" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3221,7 +3221,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="seto taisho vs yokai part 1 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="401d2531" sha1="61702d9954b5afb4c6479f82d9e63b49b8be18e0" offset="0" />
+				<rom name="seto taisho vs yokai part 1 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="401d2531" sha1="61702d9954b5afb4c6479f82d9e63b49b8be18e0" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3234,7 +3234,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="seto taishó to kazan (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="b0b4f988" sha1="e61229d5d95653df8df8570b02bb59d5b96e4542" offset="0" />
+				<rom name="seto taishó to kazan (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="b0b4f988" sha1="e61229d5d95653df8df8570b02bb59d5b96e4542" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3247,7 +3247,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="somewhere in hell (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="6de81444" sha1="7a979611ef5e5adb262c40d5b148a580812bfd1c" offset="0" />
+				<rom name="somewhere in hell (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="6de81444" sha1="7a979611ef5e5adb262c40d5b148a580812bfd1c" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3260,7 +3260,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="sophia ii part 1 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="0c376a45" sha1="a4c406302b032fbc4a09c6a0c403b0221173e25f" offset="0" />
+				<rom name="sophia ii part 1 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="0c376a45" sha1="a4c406302b032fbc4a09c6a0c403b0221173e25f" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3273,7 +3273,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="sophia ii part 2 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="e0af05c8" sha1="51d627d4075fde9c9e593c7653a0e1a523cc034f" offset="0" />
+				<rom name="sophia ii part 2 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="e0af05c8" sha1="51d627d4075fde9c9e593c7653a0e1a523cc034f" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3286,7 +3286,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="sophia ii part 3 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="81c772d5" sha1="22e08aa107de280df751d35112938dd9adb37323" offset="0" />
+				<rom name="sophia ii part 3 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="81c772d5" sha1="22e08aa107de280df751d35112938dd9adb37323" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3299,7 +3299,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="sophia v1.1 (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="ca0e4f1e" sha1="9f42bf30159c814453d816c420c9f6f511aff64d" offset="0" />
+				<rom name="sophia v1.1 (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="ca0e4f1e" sha1="9f42bf30159c814453d816c420c9f6f511aff64d" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3338,7 +3338,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="space disposal (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="507a2784" sha1="de2df6fc4d68bcc0de9e7d05f5e8bd42c3fe493b" offset="0" />
+				<rom name="space disposal (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="507a2784" sha1="de2df6fc4d68bcc0de9e7d05f5e8bd42c3fe493b" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3403,7 +3403,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="spider mami (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="cc70c7f9" sha1="fa59eea409752cc79e06ed1c2cf992009a2a8a34" offset="0" />
+				<rom name="spider mami (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="cc70c7f9" sha1="fa59eea409752cc79e06ed1c2cf992009a2a8a34" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3416,7 +3416,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="springbot - mars attack (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="6577e0b0" sha1="8553e3525f9b00c672a0e43197b8e268487f6c78" offset="0" />
+				<rom name="springbot - mars attack (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="6577e0b0" sha1="8553e3525f9b00c672a0e43197b8e268487f6c78" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3429,7 +3429,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="sprouty (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="443f7537" sha1="9dce8ad83556efb26f24459bdf6d039caab7a924" offset="0" />
+				<rom name="sprouty (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="443f7537" sha1="9dce8ad83556efb26f24459bdf6d039caab7a924" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3442,7 +3442,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="stars (gumi) (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="ead46d9f" sha1="8fc8551b995fc0234e4d527b59e02e17cd6c0ce6" offset="0" />
+				<rom name="stars (gumi) (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="ead46d9f" sha1="8fc8551b995fc0234e4d527b59e02e17cd6c0ce6" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3481,7 +3481,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="stripping penelope (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="81008695" sha1="80d73fdd3026228ac30cf589922add1aa2cde336" offset="0" />
+				<rom name="stripping penelope (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="81008695" sha1="80d73fdd3026228ac30cf589922add1aa2cde336" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3507,7 +3507,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="tank battle (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="7a7ee843" sha1="0a58aa13237ca6020208d5831293ad2ec0c86095" offset="0" />
+				<rom name="tank battle (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="7a7ee843" sha1="0a58aa13237ca6020208d5831293ad2ec0c86095" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3520,7 +3520,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="tapper (demo) (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="0ef61876" sha1="ff7307f59af7b521d4a758632828ebf33c7d9d4b" offset="0" />
+				<rom name="tapper (demo) (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="0ef61876" sha1="ff7307f59af7b521d4a758632828ebf33c7d9d4b" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3546,7 +3546,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="tea leaf ted (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="cf837bb5" sha1="16ebdc65f12d5702a31d833549df0ee29b7c629a" offset="0" />
+				<rom name="tea leaf ted (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="cf837bb5" sha1="16ebdc65f12d5702a31d833549df0ee29b7c629a" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3559,7 +3559,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="tea leaf ted - bear (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="578c611c" sha1="bfb9524e8e46977917cd8acd5e06f7ccd7b38c84" offset="0" />
+				<rom name="tea leaf ted - bear (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="578c611c" sha1="bfb9524e8e46977917cd8acd5e06f7ccd7b38c84" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3598,7 +3598,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="that sinking feeling (k.v.oss & p.serrat)[!].dsk" size="161280" crc="0add2339" sha1="568d1d3031391637c05ea0657578644c9f38f128" offset="0" />
+				<rom name="that sinking feeling (k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="0add2339" sha1="568d1d3031391637c05ea0657578644c9f38f128" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3637,7 +3637,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="the adventures of bob - jet pack bob (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="5d0771f9" sha1="d682955534301f91b3368df12770bcb039f95db3" offset="0" />
+				<rom name="the adventures of bob - jet pack bob (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="5d0771f9" sha1="d682955534301f91b3368df12770bcb039f95db3" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3663,7 +3663,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="the adventures of bob - summer breeze (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="ba3f346d" sha1="02d89565415791edc222054ad2d94708eebbd0de" offset="0" />
+				<rom name="the adventures of bob - summer breeze (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="ba3f346d" sha1="02d89565415791edc222054ad2d94708eebbd0de" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3689,7 +3689,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="the amethyst dagger (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="c635b38d" sha1="d8161fa14b512dab3eab1d65898fd76b7a237389" offset="0" />
+				<rom name="the amethyst dagger (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="c635b38d" sha1="d8161fa14b512dab3eab1d65898fd76b7a237389" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3715,7 +3715,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="the curse of trasmoz (2021)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="57c6e728" sha1="fc505d9ba43ee4ef72a26bd9f2b5acf692c09776" offset="0" />
+				<rom name="the curse of trasmoz (2021)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="57c6e728" sha1="fc505d9ba43ee4ef72a26bd9f2b5acf692c09776" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3741,7 +3741,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="the goblin (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="288f0828" sha1="d81840b02c2235400bd62a2b0a25c1cbafed9068" offset="0" />
+				<rom name="the goblin (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="288f0828" sha1="d81840b02c2235400bd62a2b0a25c1cbafed9068" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3754,7 +3754,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="the hair rising adventures of mr hair (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="95f8c860" sha1="e72aa76cdc5d0ede1c1e3b4a7011a76137702390" offset="0" />
+				<rom name="the hair rising adventures of mr hair (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="95f8c860" sha1="e72aa76cdc5d0ede1c1e3b4a7011a76137702390" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3767,7 +3767,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="the incredible shrinking professor (k.v.oss & p.serrat)[!].dsk" size="161280" crc="af35b3c9" sha1="ceb1964f556c6c770a6d67a5828a5a2013e824d9" offset="0" />
+				<rom name="the incredible shrinking professor (k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="af35b3c9" sha1="ceb1964f556c6c770a6d67a5828a5a2013e824d9" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3780,7 +3780,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="the last escape (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="08516022" sha1="39321634ca46dc8547b54ba778a0adcc19d5b35c" offset="0" />
+				<rom name="the last escape (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="08516022" sha1="39321634ca46dc8547b54ba778a0adcc19d5b35c" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3793,7 +3793,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="the last human (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="320310cb" sha1="c6de29b27423446f225f46e7c9dab7445cb412fe" offset="0" />
+				<rom name="the last human (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="320310cb" sha1="c6de29b27423446f225f46e7c9dab7445cb412fe" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3806,7 +3806,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="the lost island (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="f615cded" sha1="7d2d56c87e815f42c8ba3130a37861250cb1056e" offset="0" />
+				<rom name="the lost island (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="f615cded" sha1="7d2d56c87e815f42c8ba3130a37861250cb1056e" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3832,7 +3832,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="the man with the golden joystick (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="6ec9a9ac" sha1="111e44fa56a6d184db2293cb8dd88f32882cd44c" offset="0" />
+				<rom name="the man with the golden joystick (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="6ec9a9ac" sha1="111e44fa56a6d184db2293cb8dd88f32882cd44c" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3858,7 +3858,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="the quest to become king (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="8986629e" sha1="fb8dd71cc5164174ea57952adfa42341e2a43ebf" offset="0" />
+				<rom name="the quest to become king (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="8986629e" sha1="fb8dd71cc5164174ea57952adfa42341e2a43ebf" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3871,7 +3871,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="the radomator (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="1f693ade" sha1="2164a6e0696ea57a1c70e464ccb5f4b18a8fcbae" offset="0" />
+				<rom name="the radomator (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="1f693ade" sha1="2164a6e0696ea57a1c70e464ccb5f4b18a8fcbae" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3884,7 +3884,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="the shining (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="7d69d520" sha1="a9571668c20e19864dbe353706f2ec265cb8745a" offset="0" />
+				<rom name="the shining (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="7d69d520" sha1="a9571668c20e19864dbe353706f2ec265cb8745a" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3923,7 +3923,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="the witch (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="853a3ae3" sha1="9bf22b79b04702a68cd08600f70646400f84afe0" offset="0" />
+				<rom name="the witch (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="853a3ae3" sha1="9bf22b79b04702a68cd08600f70646400f84afe0" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3936,7 +3936,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="three octopuses (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="f23e93fa" sha1="ed0c7201e3e868beb547c2c30d1fe76dccf60c40" offset="0" />
+				<rom name="three octopuses (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="f23e93fa" sha1="ed0c7201e3e868beb547c2c30d1fe76dccf60c40" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3949,7 +3949,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="tiki temple (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="27cb1687" sha1="74c9aa1bb43b0da1c49516d1b43bb7b457add479" offset="0" />
+				<rom name="tiki temple (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="27cb1687" sha1="74c9aa1bb43b0da1c49516d1b43bb7b457add479" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3962,7 +3962,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="timothy's travels (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="0a6c3eaf" sha1="515b202f4c6eb2f30ff28a8ae7a84e637c0933af" offset="0" />
+				<rom name="timothy's travels (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="0a6c3eaf" sha1="515b202f4c6eb2f30ff28a8ae7a84e637c0933af" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3975,7 +3975,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="toofy in fan land (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="e3e5f089" sha1="f9dc3f17e004b265f4a24bc05ff70feaa96bbc54" offset="0" />
+				<rom name="toofy in fan land (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="e3e5f089" sha1="f9dc3f17e004b265f4a24bc05ff70feaa96bbc54" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -3988,7 +3988,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="toofy's nutty nightmare (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="2835bc8b" sha1="87379d6128bb6eac95bf77cdb03411d2fd208775" offset="0" />
+				<rom name="toofy's nutty nightmare (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="2835bc8b" sha1="87379d6128bb6eac95bf77cdb03411d2fd208775" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -4001,7 +4001,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="toofy's winter nuts (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="e339759c" sha1="5b1ddb97033c6e3107ec1241b880fcbe2e1fd851" offset="0" />
+				<rom name="toofy's winter nuts (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="e339759c" sha1="5b1ddb97033c6e3107ec1241b880fcbe2e1fd851" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -4014,7 +4014,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="trick or troll (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="de692134" sha1="702eec254fe879e57c01eecbf0a6f68e819f7183" offset="0" />
+				<rom name="trick or troll (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="de692134" sha1="702eec254fe879e57c01eecbf0a6f68e819f7183" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -4040,7 +4040,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="ufo (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="a2b63a38" sha1="91d5dafcd42a1eb23a690d441585c7bdf7952136" offset="0" />
+				<rom name="ufo (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="a2b63a38" sha1="91d5dafcd42a1eb23a690d441585c7bdf7952136" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -4053,7 +4053,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="unicycle (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="921d5714" sha1="9202a8cddcfdd47598fda7ca482caceed6bba690" offset="0" />
+				<rom name="unicycle (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="921d5714" sha1="9202a8cddcfdd47598fda7ca482caceed6bba690" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -4066,7 +4066,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="vampire vengeance (2022)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="36cf6a20" sha1="8906e9af83400e9f3dcbdc7a5f9bc4aebfad38a7" offset="0" />
+				<rom name="vampire vengeance (2022)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="36cf6a20" sha1="8906e9af83400e9f3dcbdc7a5f9bc4aebfad38a7" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -4092,7 +4092,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="zbylut owrzodzien w kamiennym (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="dba29552" sha1="550858a672220390437bffd08ce17af55ad784ae" offset="0" />
+				<rom name="zbylut owrzodzien w kamiennym (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="dba29552" sha1="550858a672220390437bffd08ce17af55ad784ae" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -4105,7 +4105,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="zoe's adventure (2019)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="75b7c90c" sha1="7c3d00157f3635f5598e62d51642d460133d99b9" offset="0" />
+				<rom name="zoe's adventure (2019)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="75b7c90c" sha1="7c3d00157f3635f5598e62d51642d460133d99b9" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -4131,7 +4131,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="zombo's christmas capers v1.1 (2018)(k.v.oss & p.serrat)[!].dsk" size="161280" crc="f796e2d6" sha1="4fbb78987c1045e153427023c1a92ab04bb583f8" offset="0" />
+				<rom name="zombo's christmas capers v1.1 (2018)(k.v.oss &amp; p.serrat)[!].dsk" size="161280" crc="f796e2d6" sha1="4fbb78987c1045e153427023c1a92ab04bb583f8" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -6076,7 +6076,7 @@
 		<sharedfeat name="compatibility" value="COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="basicd&d.dsk" size="161280" crc="8da78e48" sha1="5798c5c72dfa67b54bad6d2ea1484f2ff1409a0a" offset="0" />
+				<rom name="basicd&amp;d.dsk" size="161280" crc="8da78e48" sha1="5798c5c72dfa67b54bad6d2ea1484f2ff1409a0a" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -12968,7 +12968,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="fire&gas.dsk" size="161280" crc="e5938878" sha1="aa741beda912617fd2772b1d1ab942a149dc66bc" offset="0" />
+				<rom name="fire&amp;gas.dsk" size="161280" crc="e5938878" sha1="aa741beda912617fd2772b1d1ab942a149dc66bc" offset="0" />
 			</dataarea>
 		</part>
 	</software>
@@ -23715,7 +23715,7 @@
 		<sharedfeat name="compatibility" value="COCO,COCO3" />
 		<part name="flop0" interface="floppy_5_25">
 			<dataarea name="flop" size="161280">
-				<rom name="sex&viol.dsk" size="161280" crc="eedcb039" sha1="ed2324601b1aebcdba854ed27d822207d807104a" offset="0" />
+				<rom name="sex&amp;viol.dsk" size="161280" crc="eedcb039" sha1="ed2324601b1aebcdba854ed27d822207d807104a" offset="0" />
 			</dataarea>
 		</part>
 	</software>

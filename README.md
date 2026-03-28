@@ -84,43 +84,45 @@ This creates:
 
 ### Step 2 — Edit mame.ini
 
-MAME searches `hashpath` left to right and uses the **first** `coco_flop.xml` it
-finds. The MAME install ships its own `coco_flop.xml` (small official list), so
-`~/.mame/hash` must come **before** the MAME install's `hash` directory.
+Two settings in `mame.ini` need updating (`~/.mame/mame.ini` on Linux,
+`%USERPROFILE%\mame\mame.ini` on Windows).
 
-Find your `mame.ini` (usually `~/.mame/mame.ini` on Linux,
-`%USERPROFILE%\mame\mame.ini` on Windows) and edit the `hashpath` line so
-`$HOME/.mame/hash` (Linux) or `%USERPROFILE%\mame\hash` (Windows) is first:
+> **Important:** Use **absolute paths** — MAME does not expand `$HOME`, `~`,
+> or `%USERPROFILE%` in mame.ini settings.
 
-**Linux:**
-```
-hashpath    $HOME/.mame/hash;hash;/opt/mame/hash
-```
+**`hashpath`** — MAME uses the first `coco_flop.xml` it finds left to right.
+Your user hash directory must come before the MAME install's `hash` directory:
 
-**Windows:**
+Linux:
 ```
-hashpath    %USERPROFILE%\mame\hash;hash
+hashpath    /home/<user>/.mame/hash;hash;/opt/mame/hash
 ```
 
-> **Note:** The exact existing entries in your `hashpath` will vary. The key is
-> that your user hash directory appears before the MAME install directory (`hash`).
-
-### Step 3 — Verify rompath includes the software folder
-
-The zipped DSK files live in `software/coco_flop/`. MAME must be able to find
-them via `rompath`. Check that `rompath` in `mame.ini` includes your user
-software directory — either directly or via the symlink/junction created above.
-
-A typical Linux `rompath` — use the **absolute path** for the user software
-directory, since relative entries resolve from the MAME executable directory,
-not from `~/.mame/`:
+Windows:
 ```
-rompath    /home/<user>/.mame/software;software;roms;/media/share1/roms;/media/share1/software
+hashpath    C:\Users\<user>\mame\hash;hash
 ```
 
-On Windows:
+**`swpath`** — This is what MAME uses to find software list zip files
+(`rompath` is for ROMs, not software lists). Add your user software directory
+as an absolute path first:
+
+Linux:
 ```
-rompath    %USERPROFILE%\mame\software;software;roms
+swpath    /home/<user>/.mame/software;software;/media/share1/software
+```
+
+Windows:
+```
+swpath    C:\Users\<user>\mame\software;software
+```
+
+### Step 3 — rompath
+
+Leave `rompath` for ROM sets only — remove any software directories from it:
+
+```
+rompath    roms;chds;/media/share1/roms
 ```
 
 ### Using the software list in MAME
@@ -232,7 +234,7 @@ create-mame-links.ps1   One-time junction setup (Windows)
 downloads/              Downloaded ZIP files (created on first run)
 archive/                Extracted DSK images, one subfolder per game
 hash/                   Generated output (coco_flop.xml)
-software/coco_flop/     Zipped DSKs for MAME rompath
+software/coco_flop/     Zipped DSKs for MAME swpath
 ```
 
 ---
