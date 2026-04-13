@@ -79,23 +79,33 @@ Copies the output to:
 
 ### Step 1 — Link project folders into MAME
 
-Run the appropriate script **once** to create symlinks (Linux) or junctions (Windows)
+Run the appropriate script to create symlinks (Linux) or junctions (Windows)
 from your MAME directory into this project. After that, regenerating the XML is
 immediately live in MAME with no copy step needed.
 
-**Linux** — creates symlinks into `~/.mame/`:
+**Linux:**
 ```bash
 ./create-mame-links.sh
 ```
 
-**Windows** — creates directory junctions into `%USERPROFILE%\mame\`:
+**Windows:**
 ```powershell
 .\create-mame-links.ps1
 ```
 
-This creates:
-- `~/.mame/hash` → `<project>/hash/` — so MAME finds `coco_flop.xml` and `coco_cart.xml`
-- `~/.mame/software` → `<project>/software/` — so MAME finds the zipped media
+Both scripts are **safe to run multiple times** and handle all of these cases
+automatically:
+
+- If `~/.mame/hash` or `~/.mame/software` are whole-directory symlinks from an
+  older version of this script, they are converted to real directories first.
+- Individual file/directory links are then created or refreshed:
+  - `~/.mame/hash/coco_flop.xml` → `<project>/hash/coco_flop.xml`
+  - `~/.mame/hash/coco_cart.xml` → `<project>/hash/coco_cart.xml`
+  - `~/.mame/software/coco_flop/` → `<project>/software/coco_flop/`
+  - `~/.mame/software/coco_cart/` → `<project>/software/coco_cart/`
+
+This approach allows multiple projects (e.g. `mc10-hash`) to add their own
+entries alongside CoCo entries without conflict.
 
 ### Step 2 — Edit mame.ini
 
@@ -330,7 +340,7 @@ software/coco_cart/     Zipped CCCs for MAME rompath
   or `/opt/mame/hash`). MAME stops at the first matching XML it finds.
 - Validate the XML: `xmllint --noout hash/coco_flop.xml` — any parse error will
   cause MAME to silently fall back to the official list.
-- Confirm the symlinks exist: `ls -la ~/.mame/hash ~/.mame/software`
+- Confirm the symlinks exist: `ls -la ~/.mame/hash/coco_flop.xml ~/.mame/hash/coco_cart.xml`
 
 ### MAME can't find the disk/cart images
 
